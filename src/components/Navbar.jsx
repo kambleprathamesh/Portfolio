@@ -62,86 +62,107 @@ export const NavBar = () => {
   };
 
   return (
-    <div className="w-full mx-auto flex justify-evenly lg:justify-center fixed top-0  z-[100] border-4">
-      {/* logo */}
-      <div className="w-[80px] h-[80px] bg-[#71f8ac] text-4xl text-black font-semibold text-center flex justify-center items-center">KP</div>
-      {/* different sections */}
-      <div
-        className="w-10/12 max-w-[1080px] min-h-[80px] bg-[#161c26] hidden lg:block"
-        onMouseEnter={handleMouseEnter}
-        onMouseLeave={handleMouseLeave}
-      >
-        <ul className="w-full h-full flex justify-evenly items-center text-white font-semibold text-xl">
-          <a
-            href=""
-            className={`hover:cursor-pointer ${
-              hoveredNavItem ? "hovered" : ""
-            }`}
-          >
-            Home
-          </a>
-          <a
-            href=""
-            className={`hover:cursor-pointer ${
-              hoveredNavItem ? "hovered" : ""
-            }`}
-          >
-            About
-          </a>
-          <a
-            href=""
-            className={`hover:cursor-pointer ${
-              hoveredNavItem ? "hovered" : ""
-            }`}
-          >
-            Skills
-          </a>
-          <a
-            href=""
-            className={`hover:cursor-pointer ${
-              hoveredNavItem ? "hovered" : ""
-            }`}
-          >
-            Experience
-          </a>
-          <a
-            href=""
-            className={`hover:cursor-pointer ${
-              hoveredNavItem ? "hovered" : ""
-            }`}
-          >
-            Education
-          </a>
-          <a
-            href=""
-            className={`hover:cursor-pointer ${
-              hoveredNavItem ? "hovered" : ""
-            }`}
-          >
-            Projects
-          </a>
-          <a
-            href=""
-            className={`hover:cursor-pointer ${
-              hoveredNavItem ? "hovered" : ""
-            }`}
-          >
-            Certificate
-          </a>
-          <a
-            href=""
-            className={`hover:cursor-pointer ${
-              hoveredNavItem ? "hovered" : ""
-            }`}
-          >
-            Contact
-          </a>
-        </ul>
+    <div>
+      {/* md lg screen navbar */}
+      <div className="hidden  w-full mx-auto md:flex   md:justify-center fixed top-0  z-[100] ">
+        {/* logo */}
+        <div className="w-[80px] h-[80px] bg-[#55e6a5] text-4xl text-black font-semibold text-center flex justify-center items-center">
+          KP
+        </div>
+        {/* different sections */}
+        <div
+          className="w-10/12 max-w-[1080px] min-h-[80px] bg-[#161c26]"
+          onMouseEnter={handleMouseEnter}
+          onMouseLeave={handleMouseLeave}
+        >
+          <ul className="w-full h-full flex justify-evenly items-center text-white font-semibold text-xl">
+            <a
+              href=""
+              className={`hover:cursor-pointer ${
+                hoveredNavItem ? "hovered" : ""
+              }`}
+            >
+              Home
+            </a>
+            <a
+              href=""
+              className={`hover:cursor-pointer ${
+                hoveredNavItem ? "hovered" : ""
+              }`}
+            >
+              About
+            </a>
+            <a
+              href=""
+              className={`hover:cursor-pointer ${
+                hoveredNavItem ? "hovered" : ""
+              }`}
+            >
+              Skills
+            </a>
+            <a
+              href=""
+              className={`hover:cursor-pointer ${
+                hoveredNavItem ? "hovered" : ""
+              }`}
+            >
+              Experience
+            </a>
+            <a
+              href=""
+              className={`hover:cursor-pointer ${
+                hoveredNavItem ? "hovered" : ""
+              }`}
+            >
+              Education
+            </a>
+            <a
+              href=""
+              className={`hover:cursor-pointer ${
+                hoveredNavItem ? "hovered" : ""
+              }`}
+            >
+              Projects
+            </a>
+            <a
+              href=""
+              className={`hover:cursor-pointer ${
+                hoveredNavItem ? "hovered" : ""
+              }`}
+            >
+              Certificate
+            </a>
+            <a
+              href=""
+              className={`hover:cursor-pointer ${
+                hoveredNavItem ? "hovered" : ""
+              }`}
+            >
+              Contact
+            </a>
+          </ul>
+        </div>
+        {/* menu bar */}
+        <div className="w-[80px] h-[80px] bg-[#71f8ac]">
+          <MenuIcon
+            style={{ width: 50, height: 50, marginTop: 10, marginLeft: 15 }}
+          />
+        </div>
       </div>
-      {/* menu bar */}
-      <div className="w-[80px] h-[80px] bg-[#71f8ac]">
+      {/* sm screen navbar */}
+      <div className="md:hidden lg:hidden w-full flex justify-between  items-center h-18 p-3 border-[2px] rounded-lg ">
+        <div>
+          <h3 className="text-4xl text-[#55e6a5]">PK</h3>
+        </div>
+
         <MenuIcon
-          style={{ width: 50, height: 50, marginTop: 10, marginLeft: 15 }}
+          style={{
+            color: "white",
+            width: 50,
+            height: 50,
+            marginTop: 10,
+            marginLeft: 15,
+          }}
         />
       </div>
     </div>

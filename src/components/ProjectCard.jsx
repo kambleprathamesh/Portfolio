@@ -4,7 +4,7 @@ import "../App.css";
 // import link from "../images/icons8-link-26.png";
 export const ProjectCard = (props) => {
   return (
-    <div class="w-[360px] h-[25rem] p-4 bg-gray-900 rounded-lg shadow-md transform hover:scale-105 border-[2px] border-[#79e9a2]  hover:shadow-2xl hover:shadow-[#79e9a2]  transition-transform duration-300 ease-in-out relative">
+    <div class=" w-[80vw] md:w-[360px] h-[23rem] p-4 bg-gray-900 rounded-lg shadow-md transform hover:scale-105 border-[2px] border-[#79e9a2]  hover:shadow-2xl hover:shadow-[#79e9a2]  transition-transform duration-300 ease-in-out relative">
       <img
         class="w-full h-40 object-cover rounded-t-lg  "
         alt="Card Image"

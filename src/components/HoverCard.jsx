@@ -1,7 +1,7 @@
-
-
 import React, { useEffect, useState } from "react";
+import { TypeAnimation } from "react-type-animation";
 
+import "../App.css";
 export const Hover = () => {
   const [tiltStyle, setTiltStyle] = useState("");
   const [borderStyle, setBorderStyle] = useState({
@@ -83,31 +83,33 @@ export const Hover = () => {
   }, []);
 
   return (
-    <section className=" w-full h-[50vh] relative mt-[10rem]  ">
-      <div
-        className="card w-[650px] h-[400px] mx-auto p-2 z-0 overflow-hidden rounded-lg relative"
-        style={{ transform: tiltStyle, ...borderStyle }}
-      >
-        <div className="w-80% h-full felx justify-center text-xl  font-sans font-semibold overflow-auto">
-          <pre style={{ color: "#79e9a2", whiteSpace: "pre-line" }}>
-            1. &lt;!DOCTYPE html&gt; <br></br>
-            2. &lt;html lang="en"&gt;<br></br>
-            3. &lt;head&gt;<br></br>
-            4. &lt;meta charset="UTF-8"&gt; <br></br>
-            5. &lt;meta name="viewport" initial-scale=1.0"&gt;<br></br>
-            6. &lt;title&gt;My Portfolio&lt;/title&gt; <br></br>
-            7. &lt;link rel="stylesheet" href="styles.css"&gt;<br></br>
-            8. &lt;/head&gt; <br></br>
-            9. &lt;body&gt; <br></br>
-            10. &lt;h1&gt;Welcome to My Portfolio&lt;/h1&gt; <br></br>
-            11. &lt;/body&gt; <br></br>
-            12.&lt;/html&gt;<br></br>
-          </pre>
-        </div>
+    <div>
+      <section className="hidden md:block md:w-full lg:h-[50vh] relative ">
+        <div
+          className="card w-[350px] h-[200px] md:w-[650px] md:h-[400px] mx-auto p-2 z-0 overflow-hidden rounded-lg relative"
+          style={{ transform: tiltStyle, ...borderStyle }}
+        >
+          <div className="w-50% h-full flex justify-center md:text-xl  font-sans font-semibold overflow-auto ">
+            <pre style={{ color: "#79e9a2", whiteSpace: "pre-line" }}>
+              1. &lt;!DOCTYPE html&gt; <br></br>
+              2. &lt;html lang="en"&gt;<br></br>
+              3. &lt;head&gt;<br></br>
+              4. &lt;meta charset="UTF-8"&gt; <br></br>
+              5. &lt;meta name="viewport" initial-scale=1.0"&gt;<br></br>
+              6. &lt;title&gt;My Portfolio&lt;/title&gt; <br></br>
+              7. &lt;link rel="stylesheet" href="styles.css"&gt;<br></br>
+              8. &lt;/head&gt; <br></br>
+              9. &lt;body&gt; <br></br>
+              10. &lt;h1&gt;Welcome to My Portfolio&lt;/h1&gt; <br></br>
+              11. &lt;/body&gt; <br></br>
+              12.&lt;/html&gt;<br></br>
+            </pre>
+          </div>
 
-        <div className="blob w-[100px] h-[100px] rounded-full bg-[#79e9a29a] absolute"></div>
-        <div className="fakeblob w-full h-full absolute top-0 left-0"></div>
-      </div>
-    </section>
+          <div className="blob w-[100px] h-[100px] rounded-full bg-[#79e9a29a] absolute"></div>
+          <div className="fakeblob w-full h-full absolute top-0 left-0"></div>
+        </div>
+      </section>
+    </div>
   );
 };

@@ -8,9 +8,26 @@ import SPS from "./projectImages/SPS.png"; //9
 import currency from "./projectImages/Currency.png"; //8
 import razorPay from "./projectImages/razorPay.png"; //1
 import calci from "./projectImages/Calci.png"; //10
+import studynotion from "./images/studyNotion.png"
 const data = [
   {
     id: 1,
+    title: "Study Notion",
+    img: studynotion,
+    code: "",
+    viewLink: "",
+    techStack: "MERN Stack",
+  },
+  {
+    id: 2,
+    title: "Campus connect",
+    img: studynotion,
+    code: "",
+    viewLink: "",
+    techStack: "MERN ",
+  },
+  {
+    id: 3,
     title: "RazorPay UI Clone",
     img: razorPay,
     code: "",
@@ -18,7 +35,7 @@ const data = [
     techStack: "ReactJs  TailwindCss",
   },
   {
-    id: 2,
+    id: 4,
     title: "Amazon UI Clone",
     img: Amz,
     code: "",
@@ -26,7 +43,7 @@ const data = [
     techStack: "Html Css",
   },
   {
-    id: 3,
+    id: 5,
     title: "Git-Hub User App",
     img: git,
     code: "",
@@ -34,7 +51,7 @@ const data = [
     techStack: "Html Css JavaScript",
   },
   {
-    id: 4,
+    id: 6,
     title: "Weather Application",
     img: weatherApp,
     code: "",
@@ -42,7 +59,7 @@ const data = [
     techStack: "Html Css Js",
   },
   {
-    id: 5,
+    id: 7,
     title: "Password Generator",
     img: pass,
     code: "",
@@ -50,7 +67,7 @@ const data = [
     techStack: "Html Css Js",
   },
   {
-    id: 6,
+    id: 8,
     title: "Rock Paper Scicors",
     img: SPS,
     code: "",
@@ -58,7 +75,7 @@ const data = [
     techStack: "Html Css Js",
   },
   {
-    id: 7,
+    id: 9,
     title: "Parallex Website",
     img: parallex,
     code: "",
@@ -66,7 +83,7 @@ const data = [
     techStack: "Html Css Js",
   },
   {
-    id: 8,
+    id: 10,
     title: "Currency Converter App",
     img: currency,
     code: "",
@@ -74,7 +91,7 @@ const data = [
     techStack: "Html Css Js",
   },
   {
-    id: 9,
+    id: 11,
     title: "Tic Tac Toe",
     img: ticTac,
     code: "",
@@ -82,7 +99,7 @@ const data = [
     techStack: "Html Css Js",
   },
   {
-    id: 10,
+    id: 12,
     title: "Calculator App",
     img: calci,
     code: "",
@@ -90,5 +107,6 @@ const data = [
     techStack: "Html Css Js",
   },
 ];
+
 
 export default data;

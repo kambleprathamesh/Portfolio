@@ -17,7 +17,7 @@ function CursorPointer() {
 
   return (
     <div
-      className="cursor-circle"
+      className="cursor-circle hidden md:block "
       style={{ left: position.x + "px", top: position.y + "px" }}
     ></div>
   );
