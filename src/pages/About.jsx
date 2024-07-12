@@ -2,14 +2,14 @@ import React from "react";
 import passportPhoto from "../images/passportphoto.png";
 export const About = () => {
   return (
-    <section className="w-full  h-[100vh] bg-[#03050a] flex flex-col  justify-between md:flex-row md:justify-center  relative">
+    <section className="w-full h-screen  md:h-[100vh] bg-[#03050a] flex flex-col  justify-between md:flex-row md:justify-center pb-8 relative">
       {/* left part */}
 
-      <div className="w-[80%] max-w-maxContent mx-auto flex flex-col gap-y-8  pt-[2rem]  ml-[3rem] md:ml-[7rem] md:mt-28 ">
+      <div className="w-[80%] max-w-maxContent mx-auto flex flex-col gap-y-10  pt-[2rem]  ml-[3rem] md:ml-[7rem] md:mt-28 ">
         <h3 className="text-2xl md:text-4xl  leading-4 text-[#55e6a5] font-sans  font-semibold uppercase mb-4 md:mb-10">
           About Me
         </h3>
-        <h1 className="text-white text-[1.3rem] text-center md:text-start font-semibold md:font-bold md:text-4xl md:archivo-black-regular ">
+        <h1 className="text-white text-[1.3rem] text-start md:text-start font-semibold md:font-bold md:text-4xl md:archivo-black-regular ">
           Transforming Skills Into Real Time Applications
         </h1>
         <div className="w-full md:w-[70%] flex flex-col items-center md:flex-row md:items-start gap-2">
@@ -25,7 +25,7 @@ export const About = () => {
               </p>
             {/* </div> */}
           </div>
-          <p className="md:hidden w-full text-gray-400 text-md  font-medium text-center pb-8">
+          <p className=" md:hidden w-full text-gray-400 text-md  font-medium text-center ">
             As a final-year Computer Engineering student at Datta Meghe College
             of Engineering, I'm passionate about technology and innovation.
             Skilled in the MERN stack, I build projects and participate in

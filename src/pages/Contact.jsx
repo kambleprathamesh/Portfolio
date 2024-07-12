@@ -31,7 +31,7 @@ export const Contact = () => {
 
   return (
     <>
-      <section className="w-full h-screen  bg-[#03050a] pt-2 md:pt-[5rem]  ">
+      <section className="w-full h-[85vh] md:h-screen  bg-[#03050a] pt-2  md:pt-[5rem] pb-5  ">
         <div className="w-10/12 max-w-maxContent md:flex md:justify-between mx-auto h-full  ">
           <div className="w-[40%]  ">
             <div className="hidden md:block bg-transparent  md:w-full  mt-20">
@@ -43,7 +43,7 @@ export const Contact = () => {
               />
             </div>
           </div>
-          <div className="w-full   md:w-[45%] bg-[#0a1019] mt-10 pb-8">
+          <div className="w-full   md:w-[45%] bg-[#0a1019] mt-10 pb-8 ">
             <h3 className="text-lg md:text-3xl text-[#fff] font-sans  font-semibold uppercase text-start ml-2 md:ml-14 p-2">
               Get In Touch with Me ?
             </h3>
@@ -91,7 +91,7 @@ export const Contact = () => {
                 className="messageArea row-span-10 col-span-7"
               ></textarea>
               {/* send button */}
-              <button className="w-36 md:w-[12rem] h-10 md:h-14  ml-30 bg-[#55e6a5] rounded-lg text-center leading-4 text-black text-xl md:font-semibold  cursor-pointer md:mr-[15rem]  hover:bg-[#161c26] hover:text-white transition-all duration-500 ">
+              <button className="w-36 h-8 md:w-[12rem]  md:h-14  ml-31 bg-[#55e6a5] rounded-lg text-center leading-4 text-black text-xl md:font-semibold  cursor-pointer md:mr-[15rem]  hover:bg-[#161c26] hover:text-white transition-all duration-500 ">
                 Send Now
               </button>
             </form>

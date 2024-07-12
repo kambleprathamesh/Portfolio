@@ -14,7 +14,7 @@ import bt from "./images/bootstrap.png";
 import mdb from "./images/icons8-mongo-db-48.png";
 
 import git from "./images/git.png";
-import gb from "./images/icons8-github-24.png";
+import gb from "./images/github.jpg";
 import dok from "./images/Docker-Logo-700x394.png";
 
 import speaker from "./images/speaker.jpeg";
@@ -217,7 +217,32 @@ const organization = [
   },
 ];
 
+const sidemenu = [
+  {
+    menu: "Home",
+  },
+  {
+    menu: "About",
+  },
 
+  {
+    menu: "Skills",
+  },
+  {
+    menu: "Projects",
+  },
+  {
+    menu: "Experience",
+  },
+
+  {
+    menu: "Education",
+  },
+
+  {
+    menu: "Contact",
+  },
+];
 export {
   backend,
   languages,
@@ -227,4 +252,5 @@ export {
   hackathon,
   education,
   organization,
+  sidemenu,
 };
