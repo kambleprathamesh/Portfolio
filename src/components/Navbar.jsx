@@ -104,7 +104,7 @@ export const NavBar = () => {
           <div>
             <h3 className="text-4xl text-[#55e6a5]">PK</h3>
           </div>
-          <div className="border-4 border-white">
+          <div className="">
             <MenuIcon
               onClick={() => {
                 setSideBar((prev) => !prev);
