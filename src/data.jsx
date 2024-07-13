@@ -220,27 +220,34 @@ const organization = [
 const sidemenu = [
   {
     menu: "Home",
+    id:"#home"
   },
   {
     menu: "About",
+    id:"#about"
   },
 
   {
     menu: "Skills",
+    id:"#skills"
   },
   {
     menu: "Project",
+    id:"#project"
   },
   {
     menu: "Experience",
+    id:"#experience"
   },
 
   {
     menu: "Education",
+    id:"#education"
   },
 
   {
     menu: "Contact",
+    id:"#contact"
   },
 ];
 export {
