@@ -1,29 +1,28 @@
 import React, { useState } from "react";
-// import MenuIcon from "@mui/icons-material/Menu";
+import MenuIcon from "@mui/icons-material/Menu";
 import "../index.css";
 import "../App.css";
 import SideBar from "../components/SideBar";
 import logoCode from "../images/logoCode1.png";
-// import { RxCross2 } from "react-icons/rx";
 export const NavBar = () => {
   const [sideBar, setSideBar] = useState(false);
-  // const [hoveredNavItem, setHoveredNavItem] = useState(false);
+  const [hoveredNavItem, setHoveredNavItem] = useState(false);
 
-  // const handleMouseEnter = () => {
-  //   setHoveredNavItem(true);
-  // };
+  const handleMouseEnter = () => {
+    setHoveredNavItem(true);
+  };
 
-  // const handleMouseLeave = () => {
-  //   setHoveredNavItem(false);
-  // };
+  const handleMouseLeave = () => {
+    setHoveredNavItem(false);
+  };
 
   const toggleMenu = () => {
     setSideBar(!sideBar);
-};
+  };
   return (
     <div>
       {/* md lg screen navbar */}
-      <div className="hidden  w-full mx-auto md:flex   md:justify-center fixed top-0  z-[100] ">
+      <div className="hidden  w-screen mx-auto md:flex   md:justify-center fixed top-0  z-[100] ">
         {/* logo */}
         <div className="w-[80px] h-[80px] bg-[#55e6a5] text-4xl text-black font-semibold text-center flex justify-center items-center">
           PK
@@ -31,49 +30,63 @@ export const NavBar = () => {
         {/* different sections */}
         <div
           className="hidden md:block w-10/12 max-w-maxContent min-h-[80px] bg-[#161c26]"
-          // onMouseEnter={handleMouseEnter}
-          // onMouseLeave={handleMouseLeave}
+          onMouseEnter={handleMouseEnter}
+          onMouseLeave={handleMouseLeave}
         >
           <ul className="w-full h-full flex justify-evenly items-center text-white font-medium text-2xl">
             <a
               href="#home"
-              className={`hover:cursor-pointer `}
+              className={`hover:cursor-pointer ${
+                hoveredNavItem ? "hovered" : ""
+              }`}
             >
               Home
             </a>
             <a
               href="#about"
-              className={`hover:cursor-pointer `}
+              className={`hover:cursor-pointer ${
+                hoveredNavItem ? "hovered" : ""
+              }`}
             >
               About
             </a>
             <a
               href="#skills"
-              className={`hover:cursor-pointer `}
+              className={`hover:cursor-pointer ${
+                hoveredNavItem ? "hovered" : ""
+              }`}
             >
               Skills
             </a>
             <a
               href="#experience"
-              className={`hover:cursor-pointer `}
+              className={`hover:cursor-pointer ${
+                hoveredNavItem ? "hovered" : ""
+              }`}
             >
               Experience
             </a>
             <a
               href="#education"
-              className={`hover:cursor-pointer `}
+              className={`hover:cursor-pointer ${
+                hoveredNavItem ? "hovered" : ""
+              }`}
             >
               Education
             </a>
             <a
               href="#project"
-              className={`hover:cursor-pointer `}
+              className={`hover:cursor-pointer ${
+                hoveredNavItem ? "hovered" : ""
+              }`}
             >
               Projects
             </a>
             <a
               href="#contact"
-              className={`hover:cursor-pointer `}
+              className={`hover:cursor-pointer ${
+                hoveredNavItem ? "hovered" : ""
+              }`}
             >
               Contact
             </a>
@@ -94,51 +107,39 @@ export const NavBar = () => {
           <div>
             <h3 className="text-4xl text-[#55e6a5]">PK</h3>
           </div>
-          {/* <div className="">
-            {sideBar ? (
-              <RxCross2
-                onClick={() => {
-                  setSideBar((prev) => !prev);
-                  console.log(sideBar);
-                }}
-                style={{
-                  color: "white",
-                  width: 50,
-                  height: 50,
-                  marginTop: 10,
-                  marginLeft: 15,
-                }}
-              />
-            ) : (
-              <MenuIcon
-                onClick={() => {
-                  setSideBar((prev) => !prev);
-                  console.log(sideBar);
-                }}
-                style={{
-                  color: "white",
-                  width: 50,
-                  height: 50,
-                  marginTop: 10,
-                  marginLeft: 15,
-                }}
-              />
-            )}
+          {/* <div
+            
+            className="border-4 border-white"
+          >
+            <MenuIcon
+            onClick={() => {
+              setSideBar((prev) => !prev);
+              console.log(sideBar);
+            }}
+              style={{
+                color: "white",
+                width: 50,
+                height: 50,
+                marginTop: 10,
+                marginLeft: 15,
+              }}
+            />
           </div> */}
+
           <div className="menu-icon" onClick={toggleMenu}>
             {sideBar ? (
-                <div className="cross">
-                    <div className="bar1"></div>
-                    <div className="bar2"></div>
-                </div>
+              <div className="cross">
+                <div className="bar1"></div>
+                <div className="bar2"></div>
+              </div>
             ) : (
-                <div className="hamburger flex flex-col gap-2 ">
-                    <div className="bar1  bg-white"></div>
-                    <div className="bar2  bg-white"></div>
-                    <div className="bar3  bg-white"></div>
-                </div>
+              <div className="hamburger  flex flex-col gap-1">
+                <div className="bar1"></div>
+                <div className="bar2"></div>
+                <div className="bar3"></div>
+              </div>
             )}
-        </div>
+          </div>
         </div>
         <div>{sideBar && <SideBar />}</div>
       </div>
