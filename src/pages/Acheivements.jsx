@@ -38,7 +38,7 @@ export const AcheivementsandExp = () => {
                   </p> */}
 
                   <button className="w-[200px]  h-10 border-[0.5px] border-[#55e6a5] border-opacity-55 text-[#55e6a5] rounded-lg p-3 poppins-regular text-center leading-[1rem] text-md ">
-                    <a href={ele.link}>View Post</a>
+                    <a href={ele.link} target="blank">View Post</a>
                   </button>
                 </div>
               </div>

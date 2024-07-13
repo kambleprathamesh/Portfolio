@@ -11,10 +11,11 @@ import { Contact } from "./pages/Contact";
 import { Project } from "./pages/Project";
 import Footer from "./pages/Footer";
 import { Toaster } from "react-hot-toast";
+import TopButton from "./components/TopButton";
 function App() {
   return (
-    <div className="App w-screen h-[100vh] overflow-x-hidden">
-      <div className=" bg-[url(./images/banner.jpg)] bg-no-repeat bg-cover bg-center">
+    <div className="App w-screen h-[100vh] overflow-x-hidden scroll-smooth">
+      <div className=" bg-[url(./images/banner.jpg)] bg-no-repeat bg-cover bg-center" id="top">
         <NavBar />
         <CursorPointer />
         <section id="home">
@@ -43,6 +44,7 @@ function App() {
       <section>
         <Footer />
       </section>
+      <TopButton/>
       <Toaster />
     </div>
   );
