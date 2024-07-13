@@ -32,7 +32,7 @@ function App() {
       <section id="project">
         <Project />
       </section>
-      <section id="experience">
+      <section id="exp">
         <AcheivementsandExp />
       </section>
       <section id="education">
