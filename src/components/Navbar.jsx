@@ -3,7 +3,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 import "../index.css";
 import "../App.css";
 import SideBar from "../components/SideBar";
-import logoCode from "../images/logoCode1.png"
+import logoCode from "../images/logoCode1.png";
 export const NavBar = () => {
   const [sideBar, setSideBar] = useState(false);
   const [hoveredNavItem, setHoveredNavItem] = useState(false);
@@ -22,7 +22,7 @@ export const NavBar = () => {
       <div className="hidden  w-full mx-auto md:flex   md:justify-center fixed top-0  z-[100] ">
         {/* logo */}
         <div className="w-[80px] h-[80px] bg-[#55e6a5] text-4xl text-black font-semibold text-center flex justify-center items-center">
-         PK
+          PK
         </div>
         {/* different sections */}
         <div
@@ -104,13 +104,12 @@ export const NavBar = () => {
           <div>
             <h3 className="text-4xl text-[#55e6a5]">PK</h3>
           </div>
-          <div
-            onClick={() => {
-              setSideBar((prev) => !prev);
-            }}
-            className=""
-          >
+          <div className="border-4 border-white">
             <MenuIcon
+              onClick={() => {
+                setSideBar((prev) => !prev);
+                console.log(sideBar);
+              }}
               style={{
                 color: "white",
                 width: 50,
@@ -128,7 +127,6 @@ export const NavBar = () => {
 };
 
 export default NavBar;
-
 
 // import React, { useState } from "react";
 // import MenuIcon from "@mui/icons-material/Menu";
