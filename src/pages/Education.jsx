@@ -15,7 +15,7 @@ export const Education = () => {
             {education.map((ele, index) => {
               return (
                 <div className="flex flex-col gap-1 md:gap-3" key={index}>
-                  <div className="w-24 md:w-48 md:h-16 border-[2px] border-[#55e6a5] text-[#55e6a5] text-lg md:text-2xl  font-sans font-medium  text-center flex items-center justify-center ">
+                  <div className="w-28 p-2 md:w-48 md:h-16 border-[2px] border-[#55e6a5] rounded-sm text-[#55e6a5] text-lg md:text-2xl  font-sans font-medium  text-center flex items-center justify-center ">
                     {ele.passing}
                   </div>
                   <h1 className="text-white text-[1.2rem] text-start md:text-start font-semibold md:font-bold md:text-2xl md:archivo-black-regular ">
@@ -24,7 +24,7 @@ export const Education = () => {
                   <h1 className="text-xl text-white text-opacity-50 .poppins-extrabold  md:ml-[10px]">
                     {ele.place}
                   </h1>
-                  <h1 className="text-xl md:text-2xl font-medium text-white text-opacity-75">
+                  <h1 className="text-xl -mt-3  md:text-2xl font-medium text-white text-opacity-75">
                     {ele.deg}
                   </h1>
                 </div>
@@ -39,13 +39,13 @@ export const Education = () => {
             {organization.map((ele, index) => {
               return (
                 <div className="flex flex-col gap-3" key={index}>
-                 <div className="w-24 md:w-48 md:h-16 border-[2px] border-[#55e6a5] text-[#55e6a5] text-lg md:text-2xl  font-sans font-medium  text-center flex items-center justify-center">
+                  <div className="w-24 md:w-48 md:h-16 border-[2px]  border-[#55e6a5] rounded-sm text-[#55e6a5] text-lg md:text-2xl  font-sans font-medium  text-center flex items-center justify-center">
                     {ele.passing}
                   </div>
                   <h1 className="text-white text-[1.2rem] text-start md:text-start font-semibold md:font-bold md:text-2xl md:archivo-black-regular ">
                     {ele.organization}
                   </h1>
-                  <h1 className="text-2xl font-medium text-white text-opacity-75">
+                  <h1 className="text-xl text-white text-opacity-50 .poppins-extrabold -mt-3 md:ml-[10px]">
                     {ele.position}
                   </h1>
                 </div>
@@ -54,7 +54,6 @@ export const Education = () => {
           </div>
         </div>
       </div>
-      
     </section>
   );
 };

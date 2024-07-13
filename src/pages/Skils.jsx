@@ -149,14 +149,14 @@
 // // bg color #0a1019
 
 // import React from "react";
-import { backend,  frontend, languages, tools } from "../data";
+import { backend, frontend, languages, tools } from "../data";
 
 const Skills = () => {
   return (
     <section className=" bg-[#0a1019]">
       <div className="w-10/12 max-w-maxContent mx-auto pt-16 md:pt-36 pb-10 md:pb-44">
-        <h3 className=" text-3xl md:text-4xl  leading-4 text-[#55e6a5] font-sans  font-semibold uppercase text-start pb-8 ">
-          Skills
+        <h3 className="text-3xl md:text-4xl text-[#55e6a5] font-sans  font-semibold uppercase text-start pb-10  ">
+          Technical Skills
         </h3>
         <div className="grid grid-cols-1 md:grid-cols-4  gap-10 ">
           {/* language */}

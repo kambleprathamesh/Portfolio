@@ -6,10 +6,10 @@ export const About = () => {
       {/* left part */}
 
       <div className="w-[80%] max-w-maxContent mx-auto flex flex-col gap-y-10  pt-[2rem]  ml-[3rem] md:ml-[7rem] md:mt-28 ">
-        <h3 className="text-2xl md:text-4xl  leading-4 text-[#55e6a5] font-sans  font-semibold uppercase mb-4 md:mb-10">
+      <h3 className="text-3xl md:text-4xl text-[#55e6a5] font-sans  font-semibold uppercase text-start   ">
           About Me
         </h3>
-        <h1 className="text-white text-[1.3rem] text-start md:text-start font-semibold md:font-bold md:text-4xl md:archivo-black-regular ">
+        <h1 className="text-white text-[1.6rem] text-start md:text-start font-semibold md:font-bold md:text-4xl md:archivo-black-regular ">
           Transforming Skills Into Real Time Applications
         </h1>
         <div className="w-full md:w-[70%] flex flex-col items-center md:flex-row md:items-start gap-2">
