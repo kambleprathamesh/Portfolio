@@ -387,6 +387,43 @@ body {
     transform: rotate(15deg);
   }
 }
+.menu-icon {
+  cursor: pointer;
+  width: 35px;
+  height: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.hamburger .bar1,
+.hamburger .bar2,
+.hamburger .bar3,
+.cross .bar1,
+.cross .bar2 {
+  width: 100%;
+  height: 5px;
+  background-color: white;
+  transition: 0.3s;
+}
+
+.cross {
+  position: relative;
+  width: 35px;
+  height: 30px;
+}
+
+.cross .bar1 {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%) rotate(45deg);
+}
+
+.cross .bar2 {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%) rotate(-45deg);
+}
 
 
 

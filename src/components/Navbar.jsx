@@ -1,21 +1,25 @@
 import React, { useState } from "react";
-import MenuIcon from "@mui/icons-material/Menu";
+// import MenuIcon from "@mui/icons-material/Menu";
 import "../index.css";
 import "../App.css";
 import SideBar from "../components/SideBar";
 import logoCode from "../images/logoCode1.png";
+// import { RxCross2 } from "react-icons/rx";
 export const NavBar = () => {
   const [sideBar, setSideBar] = useState(false);
-  const [hoveredNavItem, setHoveredNavItem] = useState(false);
+  // const [hoveredNavItem, setHoveredNavItem] = useState(false);
 
-  const handleMouseEnter = () => {
-    setHoveredNavItem(true);
-  };
+  // const handleMouseEnter = () => {
+  //   setHoveredNavItem(true);
+  // };
 
-  const handleMouseLeave = () => {
-    setHoveredNavItem(false);
-  };
+  // const handleMouseLeave = () => {
+  //   setHoveredNavItem(false);
+  // };
 
+  const toggleMenu = () => {
+    setSideBar(!sideBar);
+};
   return (
     <div>
       {/* md lg screen navbar */}
@@ -26,64 +30,50 @@ export const NavBar = () => {
         </div>
         {/* different sections */}
         <div
-          className="hidden md:block w-10/12 max-w-[1080px] min-h-[80px] bg-[#161c26]"
-          onMouseEnter={handleMouseEnter}
-          onMouseLeave={handleMouseLeave}
+          className="hidden md:block w-10/12 max-w-maxContent min-h-[80px] bg-[#161c26]"
+          // onMouseEnter={handleMouseEnter}
+          // onMouseLeave={handleMouseLeave}
         >
           <ul className="w-full h-full flex justify-evenly items-center text-white font-medium text-2xl">
             <a
               href="#home"
-              className={`hover:cursor-pointer ${
-                hoveredNavItem ? "hovered" : ""
-              }`}
+              className={`hover:cursor-pointer `}
             >
               Home
             </a>
             <a
               href="#about"
-              className={`hover:cursor-pointer ${
-                hoveredNavItem ? "hovered" : ""
-              }`}
+              className={`hover:cursor-pointer `}
             >
               About
             </a>
             <a
               href="#skills"
-              className={`hover:cursor-pointer ${
-                hoveredNavItem ? "hovered" : ""
-              }`}
+              className={`hover:cursor-pointer `}
             >
               Skills
             </a>
             <a
               href="#experience"
-              className={`hover:cursor-pointer ${
-                hoveredNavItem ? "hovered" : ""
-              }`}
+              className={`hover:cursor-pointer `}
             >
               Experience
             </a>
             <a
               href="#education"
-              className={`hover:cursor-pointer ${
-                hoveredNavItem ? "hovered" : ""
-              }`}
+              className={`hover:cursor-pointer `}
             >
               Education
             </a>
             <a
               href="#project"
-              className={`hover:cursor-pointer ${
-                hoveredNavItem ? "hovered" : ""
-              }`}
+              className={`hover:cursor-pointer `}
             >
               Projects
             </a>
             <a
               href="#contact"
-              className={`hover:cursor-pointer ${
-                hoveredNavItem ? "hovered" : ""
-              }`}
+              className={`hover:cursor-pointer `}
             >
               Contact
             </a>
@@ -104,21 +94,51 @@ export const NavBar = () => {
           <div>
             <h3 className="text-4xl text-[#55e6a5]">PK</h3>
           </div>
-          <div className="">
-            <MenuIcon
-              onClick={() => {
-                setSideBar((prev) => !prev);
-                console.log(sideBar);
-              }}
-              style={{
-                color: "white",
-                width: 50,
-                height: 50,
-                marginTop: 10,
-                marginLeft: 15,
-              }}
-            />
-          </div>
+          {/* <div className="">
+            {sideBar ? (
+              <RxCross2
+                onClick={() => {
+                  setSideBar((prev) => !prev);
+                  console.log(sideBar);
+                }}
+                style={{
+                  color: "white",
+                  width: 50,
+                  height: 50,
+                  marginTop: 10,
+                  marginLeft: 15,
+                }}
+              />
+            ) : (
+              <MenuIcon
+                onClick={() => {
+                  setSideBar((prev) => !prev);
+                  console.log(sideBar);
+                }}
+                style={{
+                  color: "white",
+                  width: 50,
+                  height: 50,
+                  marginTop: 10,
+                  marginLeft: 15,
+                }}
+              />
+            )}
+          </div> */}
+          <div className="menu-icon" onClick={toggleMenu}>
+            {sideBar ? (
+                <div className="cross">
+                    <div className="bar1"></div>
+                    <div className="bar2"></div>
+                </div>
+            ) : (
+                <div className="hamburger flex flex-col gap-2 ">
+                    <div className="bar1  bg-white"></div>
+                    <div className="bar2  bg-white"></div>
+                    <div className="bar3  bg-white"></div>
+                </div>
+            )}
+        </div>
         </div>
         <div>{sideBar && <SideBar />}</div>
       </div>

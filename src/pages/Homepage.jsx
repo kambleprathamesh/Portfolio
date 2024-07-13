@@ -10,7 +10,7 @@ export const Home = () => {
   return (
     <section className="w-full h-screen md:h-screen pb-10">
       <div className=" w-[85%] mx-auto flex flex-col  md:flex-row justify-center">
-        <div className="w-full flex flex-col justify-start gap-y-8  pt-[2rem] md:pt-[8rem]">
+        <div className="w-full flex flex-col justify-start gap-y-8  pt-[5rem] md:pt-[8rem]">
           <h1 className="text-white  text-3xl lg:text-5xl  uppercase font-Rowdies font-sans font-bold pb-10  md:pb-0">
             Hi,I'm Prathmesh! <br></br>
             

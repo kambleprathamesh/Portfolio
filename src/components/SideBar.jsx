@@ -1,11 +1,14 @@
+
 import React from "react";
 
 import { sidemenu } from "../data";
 const sideBar = () => {
   return (
     <section className="text-white">
-      <div>
-        <div className="w-screen ">
+      <div className="w-screen">
+
+     
+        <div className="w-11/12 max-w-maxContent h-1/2">
           {sidemenu.map((ele, index) => {
             return (
               <ul className="w-[90%] flex flex-col items-start justify-start space-y-2 mt-2">
@@ -19,9 +22,11 @@ const sideBar = () => {
             );
           })}
         </div>
-      </div>
+        </div>
+      
     </section>
   );
 };
 
 export default sideBar;
+
