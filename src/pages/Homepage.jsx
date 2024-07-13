@@ -16,8 +16,8 @@ export const Home = () => {
               <div>Coder</div>
               <div>Full Stack Web Developer</div>
               <div>Programmer</div>
-              <div>EVERYONE!</div>
-              {/* <div className="hidden md:block">EVERYONE!</div> */}
+              {/* <div>EVERYONE!</div> */}
+              <div className="hidden md:block">EVERYONE!</div>
             </div>
           </h1>
           <div className="w-full flex flex-col-reverse gap-y-14 md:flex-row justify-center items-start mt-[3rem] ">
