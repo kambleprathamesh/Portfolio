@@ -229,7 +229,7 @@ const sidemenu = [
     menu: "Skills",
   },
   {
-    menu: "Projects",
+    menu: "Project",
   },
   {
     menu: "Experience",

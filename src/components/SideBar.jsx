@@ -5,10 +5,10 @@ const sideBar = () => {
   return (
     <section className="text-white">
       <div>
-        <div className="w-screen flex flex-col items-start justify-start  gap-3">
+        <div className="w-screen ">
           {sidemenu.map((ele, index) => {
             return (
-              <ul className="w-[90%] ">
+              <ul className="w-[90%] flex flex-col items-start justify-start space-y-2 mt-2">
                 <a href={`#${ele.menu.toLowerCase()}`}>
                   <li
                     key={index}
