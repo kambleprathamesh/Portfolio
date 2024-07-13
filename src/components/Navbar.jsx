@@ -22,7 +22,7 @@ export const NavBar = () => {
       <div className="hidden  w-full mx-auto md:flex   md:justify-center fixed top-0  z-[100] ">
         {/* logo */}
         <div className="w-[80px] h-[80px] bg-[#55e6a5] text-4xl text-black font-semibold text-center flex justify-center items-center">
-          KP
+         PK
         </div>
         {/* different sections */}
         <div

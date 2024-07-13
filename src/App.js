@@ -10,7 +10,7 @@ import { Education } from "./pages/Education";
 import { Contact } from "./pages/Contact";
 import { Project } from "./pages/Project";
 import Footer from "./pages/Footer";
-
+import { Toaster } from "react-hot-toast";
 function App() {
   return (
     <div className="App w-screen h-[100vh] overflow-x-hidden">
@@ -43,6 +43,7 @@ function App() {
       <section>
         <Footer />
       </section>
+      <Toaster />
     </div>
   );
 }
