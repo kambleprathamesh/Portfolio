@@ -59,7 +59,15 @@ export const NavBar = () => {
               Skills
             </a>
             <a
-              href="#experience"
+              href="#project"
+              className={`hover:cursor-pointer ${
+                hoveredNavItem ? "hovered" : ""
+              }`}
+            >
+              Projects
+            </a>
+            <a
+              href="#exp"
               className={`hover:cursor-pointer ${
                 hoveredNavItem ? "hovered" : ""
               }`}
@@ -74,14 +82,7 @@ export const NavBar = () => {
             >
               Education
             </a>
-            <a
-              href="#project"
-              className={`hover:cursor-pointer ${
-                hoveredNavItem ? "hovered" : ""
-              }`}
-            >
-              Projects
-            </a>
+
             <a
               href="#contact"
               className={`hover:cursor-pointer ${
