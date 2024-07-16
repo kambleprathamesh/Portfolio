@@ -10,9 +10,9 @@ export const Home = () => {
     <section className="w-full h-screen md:h-screen pb-10">
       <div className=" w-[85%] mx-auto flex flex-col  md:flex-row justify-center">
         <div className="w-full flex flex-col justify-start gap-y-8  pt-[2rem] md:pt-[8rem]">
-          <h1 className="text-white  text-3xl lg:text-5xl  uppercase font-Rowdies font-sans font-bold pb-10  md:pb-0">
+          <h1 className="text-white  text-3xl lg:text-5xl  uppercase font-Rowdies font-sans font-semibold pb-10  md:pb-0">
             Hi,I'm Prathmesh! <br></br>
-            <div class="dropping-texts text- [#55e6a5]  text-3xl font-sans  lg:text-6xl">
+            <div class="dropping-texts  text-[#55e6a5]  text-3xl font-sans  lg:text-6xl">
               <div>Coder</div>
               <div>Full Stack Web Developer</div>
               <div>Programmer</div>
@@ -20,7 +20,7 @@ export const Home = () => {
               <div className="hidden md:block">EVERYONE!</div>
             </div>
           </h1>
-          <div className="w-full flex flex-col-reverse gap-y-14 md:flex-row justify-center items-start mt-[3rem] ">
+          <div className="w-full flex flex-col-reverse gap-y-14 md:flex-row justify-center items-start mt-[1rem] ">
             <div>
               <p className="w-[75%] hidden md:block text-justify  text-gray-400 text-md font-sans font-semibold text-xl mt-[2rem]">
                 I'm a Full Stack Web-developer, passionate about developing Web
