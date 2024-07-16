@@ -2,7 +2,7 @@ import { Hover } from "../components/HoverCard";
 import gitHub from "../images/github.png";
 import LinkedIn from "../images/linkedIn.png";
 import insta from "../images/insta.png";
-import resume from "../Resume/resume.pdf";
+import resume from "../Resume/Prathmesh_Resume.pdf";
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 
 export const Home = () => {
@@ -52,7 +52,7 @@ export const Home = () => {
                 </div>
                 <div></div>
               </div>
-              <div className="w-[13rem] h-12 lg:w-[17rem] lg:h-16 bg-[#55e6a5]  p-2 lg:p-6 text-center   lg:leading-4 text-black  text-lg lg:text-xl lg:font-semibold  mt-7 hover:bg-[#161c26] hover:text-white transition-all duration-500 cursor-pointer">
+              <div className="w-[13rem] h-12 lg:w-[14rem] lg:h-16 bg-[#55e6a5]  p-2 lg:p-5 text-center   lg:leading-4 text-black  text-lg lg:text-lg lg:font-medium  mt-7 hover:bg-[#161c26] hover:text-white transition-all duration-500 cursor-pointer border border-[#55e6a5] rounded-md">
                 <a href={resume} download target="blank">
                   {" "}
                   Download Resume

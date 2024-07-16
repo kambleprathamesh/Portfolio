@@ -7,8 +7,8 @@ const Footer = () => {
   return (
     <section className=" bg-[#03050a] text-white">
       <div className="w-[93vw] h-[0.5px] bg-gray-600 mx-auto"></div>
-      <div className=" w-11/12 h-32 mx-auto flex flex-col-reverse md:flex-row  justify-evenly   items-start  md:items-center md:justify-evenly  ">
-        <div className=" md:w-1/2 text-base md:text-lg text-white text-opacity-50  ">
+      <div className=" w-11/12 h-32 mx-auto flex flex-col justify-start md:flex-row mt-2 md:mt-0    items-start  md:items-center md:justify-evenly  ">
+        <div className=" md:w-1/2 ml-2 text-base md:text-lg text-white text-opacity-50  ">
           Made by ❤️ © 2024 Prathmesh Kamble
         </div>
         <div className="w-1/2 hidden md:block ">
