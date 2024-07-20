@@ -13,7 +13,7 @@ export const ProjectCard = (props) => {
       />
       <div class="w-full h-[10rem] pt-5 relative">
         <h2 class="text-xl text-white  font-semibold">{props.title}</h2>
-        <p class="text-white h-40 text-[1.5rem] ">{props.tech}</p>
+        <p class="text-white h-40 text-[1.2rem] ">{props.tech}</p>
         <div class="flex justify-evenly items-center  ">
           <button class="w-[5rem]  text-black  p-3 rounded-md bg-[#55e6a5] hover:bg-[#161c26] hover:text-white transition-all duration-500 cursor-pointer absolute top-[8rem] left-4">
             <a href={props.code} target="blank">
