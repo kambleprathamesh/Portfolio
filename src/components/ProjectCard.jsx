@@ -11,7 +11,7 @@ export const ProjectCard = (props) => {
         alt="Card"
         src={props.img}
       />
-      <div class="w-full h-[10rem]  relative">
+      <div class="w-full h-[10rem] pt-5 relative">
         <h2 class="text-xl text-white  font-semibold">{props.title}</h2>
         <p class="text-white h-40 text-[1.5rem] ">{props.tech}</p>
         <div class="flex justify-evenly items-center  ">
