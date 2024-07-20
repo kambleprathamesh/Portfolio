@@ -2,7 +2,7 @@ import "./projectCard.css";
 import "../App.css";
 // import github from "../images/icons8-github-24.png";
 // import link from "../images/icons8-link-26.png";
-import {toast} from "react-hot-toast"
+import { toast } from "react-hot-toast";
 export const ProjectCard = (props) => {
   return (
     <div class=" w-[80vw] md:w-[360px] h-[23rem] p-4 bg-gray-900 rounded-lg shadow-md transform hover:scale-105 border-[2px] border-[#79e9a2]  hover:shadow-2xl hover:shadow-[#79e9a2]  transition-transform duration-300 ease-in-out relative">
@@ -18,15 +18,29 @@ export const ProjectCard = (props) => {
           <button class="w-[5rem]  text-black  p-3 rounded-md bg-[#55e6a5] hover:bg-[#161c26] hover:text-white transition-all duration-500 cursor-pointer absolute top-[8rem] left-4">
             <a href={props.code} target="blank">
               {/* <img src={github} alt="github" /> */}
-              <span>Code</span>
+              <span
+                onClick={() => {
+                  if (!props.code) {
+                    toast.error("Code Not Shared");
+                  }
+                }}
+              >
+                Code
+              </span>
             </a>
           </button>
           <button class="w-[5rem]  text-black  p-3 rounded-md bg-[#55e6a5] hover:bg-[#161c26] hover:text-white transition-all duration-500 cursor-pointer absolute top-[8rem] right-4">
             <a href={props.view} target="blank">
               {/* <img src={github} alt="github" /> */}
-              <span onClick={()=>{if(!props.view){
-              toast.error("Website Not hosted")
-              }}}>View</span>
+              <span
+                onClick={() => {
+                  if (!props.view) {
+                    toast.error("Website Not hosted");
+                  }
+                }}
+              >
+                View
+              </span>
             </a>
           </button>
         </div>
