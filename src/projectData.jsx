@@ -8,31 +8,33 @@ import parallex from "./projectImages/Parralex.png"; //7
 // import currency from "./projectImages/Currency.png"; //8
 import razorPay from "./projectImages/razorPay.png"; //1
 // import calci from "./projectImages/Calci.png"; //10
-import studynotion from "./images/studyNotion.png"
-import campus from "./projectImages/campus.png"
+import studynotion from "./images/studyNotion.png";
+import campus from "./projectImages/campus.png";
+import pf from "./projectImages/portpholio.png"
 const data = [
+ 
   {
     id: 1,
-    title: "Study Notion",
-    img: studynotion,
-    code: "",
-    viewLink: "",
-    techStack: "MERN Stack",
-  },
-  {
-    id: 2,
     title: "Campus connect",
     img: campus,
     code: "",
-    viewLink: "",
+    viewLink: null,
     techStack: "MERN ",
   },
   {
-    id: 3,
+    id: 2,
     title: "RazorPay UI Clone",
     img: razorPay,
     code: "https://github.com/kambleprathamesh/razorpayUI",
     viewLink: "https://razorpay-frontend-ui.netlify.app/",
+    techStack: "ReactJs  TailwindCss",
+  },
+  {
+    id: 3,
+    title: "PortFolio",
+    img: pf,
+    code: "https://github.com/kambleprathamesh/Portfolio",
+    viewLink: "https://prathmesh-kamble.vercel.app/",
     techStack: "ReactJs  TailwindCss",
   },
   {
@@ -67,19 +69,15 @@ const data = [
     viewLink: "https://kambleprathamesh.github.io/Password-generator/",
     techStack: "Html Css Js",
   },
-  
+
   {
-    id: 9,
+    id: 8,
     title: "Parallex Website",
     img: parallex,
     code: "https://github.com/kambleprathamesh/Parallax-WebPage",
     viewLink: "https://kambleprathamesh.github.io/Parallax-WebPage/",
     techStack: "Html Css Js",
   },
-  
-  
-  
 ];
-
 
 export default data;
