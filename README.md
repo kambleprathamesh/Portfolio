@@ -44,13 +44,13 @@ To run this project locally, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/your-repository.git
+   git clone (https://github.com/kambleprathamesh/Portfolio.git)
    ```
 
 2. Navigate into the project directory:
 
    ```bash
-   cd your-repository
+   cd Portfolio
    ```
 
 3. Install the dependencies:
@@ -74,19 +74,7 @@ To run this project locally, follow these steps:
 - **CSS**: For styling the components.
 - **[Other Libraries/Tools]**: Add any other technologies or tools used.
 
-## Contributing
 
-If you'd like to contribute to this project, please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature-branch`).
-3. Make your changes and commit them (`git commit -am 'Add new feature'`).
-4. Push to the branch (`git push origin feature-branch`).
-5. Create a new Pull Request.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contact
 
@@ -101,9 +89,3 @@ For any questions or feedback, feel free to reach out to me:
 Thank you for visiting my portfolio website!
 ```
 
-## Instructions for Use:
-1. **Replace placeholders**: Make sure to replace `https://your-hosted-link.com`, `your-username/your-repository`, and other placeholders with your actual details.
-2. **Add images**: Place your screenshots in an `images` folder within your project directory and update the file paths in the `README.md`.
-3. **Update technologies**: Add or modify the technologies and tools section based on what you used.
-
-This `README.md` file provides a comprehensive overview of your portfolio website, including installation instructions, features, and contact information.
