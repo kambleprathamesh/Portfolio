@@ -32,8 +32,8 @@ You can view the live version of the portfolio [[here](https://prathmesh-kamble.
 Below are some screenshots of the portfolio website:
 
 ### Home Page
-!Laptop[Home Page](./images/home-page-screenshot.png)
-! Mobile[Home Page](./images/home-page-screenshot.png)
+!Laptop[Home Page](../PortfolioImages/laptop.png)
+!Mobile[Home Page](../PortfolioImages/mobile.png)
 
 
 
