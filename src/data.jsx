@@ -204,10 +204,11 @@ const education = [
 
 const organization = [
   {
-    organization: "Computer Society Of India",
+    organization: "Computer Society Of India DMCE",
     img: csi,
-    passing: "2023-24",
-    position: "Tecnical and Development member",
+    passing: "2023-Present",
+    position1: "Technical Head 2024-Present",
+    position: "Technical and Development member 2023-2024",
   },
   {
     organization: "National Service Scheme",

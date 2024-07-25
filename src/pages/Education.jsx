@@ -45,7 +45,10 @@ export const Education = () => {
                   <h1 className="text-white text-[1.2rem] text-start md:text-start font-semibold md:font-bold md:text-2xl md:archivo-black-regular ">
                     {ele.organization}
                   </h1>
-                  <h1 className="text-xl text-white text-opacity-50 .poppins-extrabold -mt-3 md:ml-[10px]">
+                  <h1 className="text-lg md:text-xl text-white text-opacity-50 .poppins-extrabold -mt-3 md:ml-[10px]">
+                    {ele.position1}
+                  </h1>
+                  <h1 className="text-lg md:text-xl text-white text-opacity-50 .poppins-extrabold -mt-3 md:ml-[10px]">
                     {ele.position}
                   </h1>
                 </div>
