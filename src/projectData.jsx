@@ -74,7 +74,7 @@ const data = [
     title: "Parallex Website",
     img: parallex,
     code: "https://github.com/kambleprathamesh/Parallax-WebPage",
-    viewLink: "https://kambleprathamesh.github.io/Parallax-WebPage/",
+    viewLink: null,
     techStack: "Html Css Js",
   },
 ];
