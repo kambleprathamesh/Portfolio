@@ -57,7 +57,7 @@ const data = [
     title: "Weather Application",
     img: weatherApp,
     code: "https://github.com/kambleprathamesh/weather-App",
-    viewLink: null,
+    viewLink: "https://kambleprathamesh.github.io/weather-App/",
     techStack: "Html Css Js",
   },
   {
@@ -65,7 +65,7 @@ const data = [
     title: "Password Generator",
     img: pass,
     code: "https://github.com/kambleprathamesh/Password-generator",
-    viewLink: "https://kambleprathamesh.github.io/Password-generator/",
+    viewLink: null,
     techStack: "Html Css Js",
   },
 
