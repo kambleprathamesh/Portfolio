@@ -6,7 +6,7 @@ export const About = () => {
       {/* left part */}
 
       <div className="w-[80%] max-w-maxContent mx-auto flex flex-col gap-y-10  pt-[2rem]  ml-[3rem] md:ml-[7rem] md:mt-28 ">
-      <h3 className="text-3xl md:text-4xl text-[#55e6a5] font-sans  font-semibold uppercase text-start   ">
+        <h3 className="text-3xl md:text-4xl text-[#55e6a5] font-sans  font-semibold uppercase text-start   ">
           About Me
         </h3>
         <h1 className="text-white text-[1.6rem] text-start md:text-start font-semibold md:font-bold md:text-4xl md:archivo-black-regular ">
@@ -15,14 +15,14 @@ export const About = () => {
         <div className="w-full md:w-[70%] flex flex-col items-center md:flex-row md:items-start gap-2">
           {/* small screen */}
           <div className=" md:hidden w-full flex justify-center relative -mt-10 ">
-              <img
-                src={passportPhoto}
-                class="w-[120px]  rounded-lg mt-6 mr-4"
-                alt=""
-              />
-              <p className="hidden md:block w-[400px] absolute -left-[2rem] top-[22rem] uppercase text-white text-3xl playfair-display-sc-regular ">
-                Prathmesh Kamble
-              </p>
+            <img
+              src={passportPhoto}
+              class="w-[120px]  rounded-lg mt-6 mr-4"
+              alt=""
+            />
+            <p className="hidden md:block w-[400px] absolute -left-[2rem] top-[22rem] uppercase text-white text-3xl playfair-display-sc-regular ">
+              Prathmesh Kamble
+            </p>
             {/* </div> */}
           </div>
           <p className=" md:hidden w-full text-gray-400 text-md  font-medium text-center ">
@@ -47,7 +47,7 @@ export const About = () => {
         </div>
         {/* junior developer card */}
 
-        <div class="md:w-[300px] group duration-500 hover:-skew-x-0 skew-x-6 hover:translate-x-2 absolute left-32 md:left-[68rem] z-[80]  top-[39rem] md:top-[38rem]">
+        <div class="md:w-[300px] group duration-500 hover:-skew-x-0 skew-x-6 hover:translate-x-2 absolute left-32 md:left-[68rem] z-[80]  top-[43rem] md:top-[38rem]">
           <div class="group-hover:duration-400 relative rounded-2xl w-36 md:w-44 h-16 md:h-20 bg-zinc-800 text-gray-50 flex flex-col justify-center items-center gap-1 before:-skew-x-12  before:rounded-2xl  before:absolute before:content['']  before:bg-neutral-700 before:right-3 before:top-0  before:w-36  md:before:w-44 before:h-16 md:before:h-20 before:-z-10">
             <span class="text-xl md:text-2xl font-bold">Jr</span>
             <p class="text- [#55e6a5]  text-[12px] md:text-sm font-semibold font-sans">
@@ -55,7 +55,6 @@ export const About = () => {
             </p>
           </div>
         </div>
-        
       </div>
       {/* right part */}
       <div className="hidden md:block w-[20%]  absolute right-0 top-32  ">

@@ -13,11 +13,11 @@ export const AcheivementsandExp = () => {
           Achievements & Experinces
         </h3>
         {/* Speaker */}
-        <div className="grid grid-cols-1 md:grid-cols-3  gap-4 mt-10">
+        <div className="grid grid-cols-1 md:grid-cols-3  gap-6 mt-10">
           {commonAch.map((ele, index) => {
             return (
               <div className="text-white space-y-2 " key={index}>
-                <h1 className=" md:h-16 lg:h-12 poppins-regular text-2xl md:text-2xl lg:text-3xl text-white ">
+                <h1 className=" md:h-16 lg:h-18  poppins-regular text-2xl md:text-2xl lg:text-3xl text-white lg:pb-4 ">
                   {ele.title}
                 </h1>
                 <div className="w-72 md:w-full  md:h-48 lg:h-72">
@@ -38,7 +38,9 @@ export const AcheivementsandExp = () => {
                   </p> */}
 
                   <button className="w-[200px]  h-10 border-[0.5px] border-[#55e6a5] border-opacity-55 text-[#55e6a5] rounded-lg p-3 poppins-regular text-center leading-[1rem] text-md ">
-                    <a href={ele.link} target="blank">View Post</a>
+                    <a href={ele.link} target="blank">
+                      View Post
+                    </a>
                   </button>
                 </div>
               </div>
@@ -77,8 +79,6 @@ export const AcheivementsandExp = () => {
             })}
           </div>
         </div>
-
-       
       </div>
     </section>
   );

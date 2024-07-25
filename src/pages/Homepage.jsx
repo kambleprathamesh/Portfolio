@@ -23,10 +23,11 @@ export const Home = () => {
           <div className="w-full flex flex-col-reverse gap-y-14 md:flex-row justify-center items-start mt-[1rem] ">
             <div>
               <p className="w-[75%] hidden md:block text-justify  text-gray-400 text-md font-sans font-semibold text-xl mt-[2rem]">
-                I'm a Full Stack Web-developer, passionate about developing Web
-                Applications by using modern Technologies which can help society
-                as well as the country in terms of growth. I am still working on
-                my skills and increase my knowledge in depth.
+                I am a Full Stack Web Developer with a passion for creating
+                innovative web applications using modern technologies. My goal
+                is to contribute to societal and national growth through
+                impactful digital solutions. I am committed to continuously
+                improving my skills and deepening my knowledge in the field.
               </p>
               <div className="w-full flex justify-between  md:hidden  mx-auto">
                 <div className="w-10 h-10 bg-[#55e6a5] rounded-xl p-2">
