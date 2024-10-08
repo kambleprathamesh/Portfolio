@@ -8,10 +8,18 @@ import parallex from "./projectImages/Parralex.png"; //7
 // import currency from "./projectImages/Currency.png"; //8
 import razorPay from "./projectImages/razorPay.png"; //1
 // import calci from "./projectImages/Calci.png"; //10
-import studynotion from "./images/studyNotion.png";
+import studynotion from "./projectImages/studyNotion.png";
 import campus from "./projectImages/campus.png";
 import pf from "./projectImages/portpholio.png";
 const data = [
+  {
+    id: 10,
+    title: "Study Notion",
+    img: studynotion,
+    code: "",
+    viewLink: "https://studynotion-woad-one.vercel.app/",
+    techStack: "MERN ",
+  },
   {
     id: 1,
     title: "Campus connect",
