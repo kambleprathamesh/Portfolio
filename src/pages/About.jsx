@@ -12,7 +12,7 @@ export const About = () => {
         <h1 className="text-white text-[1.6rem] text-start md:text-start font-semibold md:font-bold md:text-4xl md:archivo-black-regular ">
           Transforming Skills Into Real Time Applications
         </h1>
-        <div className="w-full md:w-[70%] flex flex-col items-center md:flex-row md:items-start gap-2">
+        <div className="w-full md:w-[70%] flex flex-col lg:flex-row-reverse items-center  md:items-start gap-2">
           {/* small screen */}
           <div className=" md:hidden w-full flex justify-center relative -mt-10 ">
             <img
@@ -25,19 +25,10 @@ export const About = () => {
             </p>
             {/* </div> */}
           </div>
-          <p className=" md:hidden w-full text-gray-400 text-md  font-medium text-center ">
+          <p className="w-full text-gray-400 text-sm md:text-lg font-medium md:font-semibold text-center md:text-left leading-relaxed">
             As a final-year Computer Engineering student at Datta Meghe College
             of Engineering, I'm passionate about technology and innovation.
-            Skilled in the MERN stack, I build projects and participate in
-            hackathons. Active in college organizations, I focus on technical
-            and social impact initiatives, aiming to drive positive change in
-            the tech community and society.
-          </p>
-          {/* large Screen */}
-          <p className="hidden md:block text-gray-400 text-xl  font-semibold ">
-            As a final-year Computer Engineering student at Datta Meghe College
-            of Engineering, I'm passionate about technology and innovation.
-            Proficient in the MERN stack, I build full-stack projects and
+            Skilled in the MERN stack, I build full-stack projects and
             participate in hackathons to solve real-world problems. Beyond
             coding, I'm active in college organizations, focusing on both
             technical and social impact initiatives. I'm dedicated to using my
