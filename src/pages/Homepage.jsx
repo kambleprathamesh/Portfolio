@@ -30,12 +30,12 @@ export const Home = () => {
                 improving my skills and deepening my knowledge in the field.
               </p>
               <div className="w-full flex justify-between  md:hidden  mx-auto">
-                <div className="w-10 h-10 bg-[#55e6a5] rounded-xl p-2">
+                <div className="w-10 h-10 bg-gradient-to-r from-[#6dd5ed] to-[#80e3aa] rounded-xl p-2">
                   <a href="https://github.com/kambleprathamesh" target="blank">
                     <img src={gitHub} alt="git" />
                   </a>
                 </div>
-                <div className="w-10 h-10 bg-[#55e6a5] rounded-xl p-2">
+                <div className="w-10 h-10 bg-gradient-to-r from-[#6dd5ed] to-[#80e3aa] rounded-xl p-2">
                   <a
                     href="https://www.linkedin.com/in/prathamesh-kamble19/"
                     target="blank"
@@ -43,7 +43,7 @@ export const Home = () => {
                     <img src={LinkedIn} alt="git" />
                   </a>
                 </div>
-                <div className="w-10 h-10 bg-[#55e6a5] rounded-xl p-2">
+                <div className="w-10 h-10 bg-gradient-to-r from-[#6dd5ed] to-[#80e3aa] rounded-xl p-2">
                   <a
                     href="https://www.instagram.com/kambleprathamesh19?igsh=Z3p5cHZlczdqYTlx"
                     target="blank"

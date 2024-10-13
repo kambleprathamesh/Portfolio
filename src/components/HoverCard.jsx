@@ -104,17 +104,14 @@ export const Hover = () => {
             </pre>
           </div>
 
-          <div className="blob w-[100px] h-[100px] rounded-full bg-[#79e9a29a] absolute"></div>
+          <div className="blob w-[100px] h-[100px] rounded-full bg-gradient-to-r from-[#6dd5ed] to-[#80e3aa] absolute"></div>
           <div className="fakeblob w-full h-full absolute top-0 left-0"></div>
         </div>
       </section>
-     
+
       <section className="md:hidden w-full ">
-       
         <div className="card w-full h-[180px] mx-auto p-2 z-0 overflow-hidden rounded-lg relative">
-         
           <div className="w-full h-full flex justify-center items-center overflow-hidden relative">
-           
             <pre
               className="text-sm  lg:text-xl font-sans font-semibold text-green-300 animate-scroll"
               style={{ color: "#79e9a2", whiteSpace: "pre-line" }}

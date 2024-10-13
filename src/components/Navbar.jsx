@@ -24,7 +24,7 @@ export const NavBar = () => {
       {/* md lg screen navbar */}
       <div className="hidden  w-screen mx-auto md:flex   md:justify-center fixed top-0  z-[100] ">
         {/* logo */}
-        <div className="w-[80px] h-[80px] bg-[#55e6a5] text-4xl text-black font-semibold text-center flex justify-center items-center">
+        <div className="w-[80px] h-[80px] bg-gradient-to-r from-[#6dd5ed] to-[#80e3aa] text-4xl text-black font-semibold text-center flex justify-center items-center">
           PK
         </div>
         {/* different sections */}
@@ -94,7 +94,7 @@ export const NavBar = () => {
           </ul>
         </div>
         {/* menu bar */}
-        <div className="w-[80px] h-[80px] bg-[#71f8ac]">
+        <div className="w-[80px] h-[80px] bg-gradient-to-r from-[#6dd5ed] to-[#80e3aa]">
           {/* <MenuIcon
             style={{ width: 50, height: 50, marginTop: 10, marginLeft: 15 }}
           /> */}

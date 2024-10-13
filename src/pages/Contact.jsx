@@ -210,7 +210,7 @@ export const Contact = () => {
               <input
                 type="submit"
                 value="Send Now"
-                className="w-36 h-8 md:w-[12rem] md:h-14 ml-31 bg-[#55e6a5] rounded-lg text-center leading-4 text-black text-xl md:font-semibold cursor-pointer md:mr-[15rem] hover:bg-[#161c26] hover:text-white transition-all duration-500"
+                className="w-36 h-8 md:w-[12rem] md:h-14 ml-31  bg-gradient-to-r from-[#6dd5ed] to-[#80e3aa] rounded-lg text-center leading-4 text-black text-xl md:font-semibold cursor-pointer md:mr-[15rem] hover:bg-[#161c26] hover:text-white transition-all duration-500"
               />
               {/* {statusMessage && (
                 <p className="text-sm text-gray-400 mt-2">{statusMessage}</p>
