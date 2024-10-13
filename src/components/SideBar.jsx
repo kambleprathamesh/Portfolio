@@ -13,11 +13,18 @@ const sideBar = () => {
                 style={{
                   background: "linear-gradient(to right, #6dd5ed, #80e3aa)",
                   WebkitBackgroundClip: "text",
-                  WebkitTextFillColor: "transparent", // For Safari support
+                  WebkitTextFillColor: "transparent",
                 }}
               >
                 <a href={ele.id} key={index}>
-                  <li className="w-full text-lg text-start text-[#55e6a5] ">
+                  <li
+                    className="w-full text-lg text-start "
+                    style={{
+                      background: "linear-gradient(to right, #6dd5ed, #80e3aa)",
+                      WebkitBackgroundClip: "text",
+                      WebkitTextFillColor: "transparent",
+                    }}
+                  >
                     {ele.menu}
                   </li>
                 </a>

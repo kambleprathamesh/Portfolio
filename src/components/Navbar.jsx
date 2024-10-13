@@ -22,7 +22,7 @@ export const NavBar = () => {
   return (
     <div>
       {/* md lg screen navbar */}
-      <div className="hidden  w-screen mx-auto md:flex   md:justify-center fixed top-0  z-[100] ">
+      <div className="hidden  w-screen mx-auto md:flex md:justify-center fixed top-0  z-[100] ">
         {/* logo */}
         <div className="w-[80px] h-[80px] bg-gradient-to-r from-[#6dd5ed] to-[#80e3aa] text-4xl text-black font-semibold text-center flex justify-center items-center">
           PK
@@ -113,7 +113,16 @@ export const NavBar = () => {
       <div className="md:hidden lg:hidden w-full flex flex-col justify-between  items-start h-18 p-3 border-[2px] rounded-lg ">
         <div className="w-full flex flex-row justify-between items-center ">
           <div>
-            <h3 className="text-4xl text-[#55e6a5]">PK</h3>
+            <h3
+              className="text-4xl text-[#55e6a5]"
+              style={{
+                background: "linear-gradient(to right, #6dd5ed, #80e3aa)",
+                WebkitBackgroundClip: "text",
+                WebkitTextFillColor: "transparent",
+              }}
+            >
+              PK
+            </h3>
           </div>
           {/* <div
             
