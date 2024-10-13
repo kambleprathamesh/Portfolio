@@ -53,7 +53,7 @@ export const Home = () => {
                 </div>
                 <div></div>
               </div>
-              <div className="w-[13rem] h-12 lg:w-[14rem] lg:h-16 bg-[#55e6a5]  p-2 lg:p-5 text-center   lg:leading-4 text-black  text-lg lg:text-lg lg:font-medium  mt-7 hover:bg-[#161c26] hover:text-white transition-all duration-500 cursor-pointer border border-[#55e6a5] rounded-md">
+              <div className="w-[13rem] h-12 lg:w-[15rem] lg:h-14 bg-gradient-to-r from-[#6dd5ed] to-[#80e3aa] hover:bg-gradient-to-r hover:from-[#00c6ff] hover:to-[#0072ff]  p-2 lg:p-5 text-center   lg:leading-[1rem] text-black  text-lg  lg:font-semibold  mt-7 hover:bg-[#161c26] hover:text-white transition-all duration-500 cursor-pointer border border-[#55e6a5] rounded-md ">
                 <a href={resume} download target="blank">
                   {" "}
                   Download Resume
