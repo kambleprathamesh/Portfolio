@@ -5,6 +5,7 @@ import git from "../images/gits.jpeg";
 import hacktober from "../images/hactoberfest.jpeg";
 import nic from "../images/nic.jpeg";
 import { commonAch, hackathon } from "../data";
+import "../App.css";
 export const AcheivementsandExp = () => {
   return (
     <section className="w-full  bg-[#03050a]">
