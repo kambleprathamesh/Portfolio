@@ -33,7 +33,14 @@ export const NavBar = () => {
           onMouseEnter={handleMouseEnter}
           onMouseLeave={handleMouseLeave}
         >
-          <ul className="w-full h-full flex justify-evenly items-center text-white font-medium text-2xl">
+          <ul
+            className="w-full h-full flex justify-evenly items-center  font-semibold text-2xl"
+            style={{
+              background: "linear-gradient(to right, #6dd5ed, #80e3aa)",
+              WebkitBackgroundClip: "text",
+              WebkitTextFillColor: "transparent", // For Safari support
+            }}
+          >
             <a
               href="#home"
               className={`hover:cursor-pointer ${
