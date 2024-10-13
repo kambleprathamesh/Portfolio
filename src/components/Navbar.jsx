@@ -143,6 +143,25 @@ export const NavBar = () => {
             />
           </div> */}
 
+          {/* <div
+            className="menu-icon "
+            
+            onClick={toggleMenu}
+          >
+            {sideBar ? (
+              <div className="cross ">
+                <div className="bar1"></div>
+                <div className="bar2"></div>
+              </div>
+            ) : (
+              <div className="hamburger  flex flex-col gap-1">
+                <div className="bar1"></div>
+                <div className="bar2"></div>
+                <div className="bar3"></div>
+              </div>
+            )}
+          </div> */}
+
           <div className="menu-icon" onClick={toggleMenu}>
             {sideBar ? (
               <div className="cross">
@@ -150,7 +169,7 @@ export const NavBar = () => {
                 <div className="bar2"></div>
               </div>
             ) : (
-              <div className="hamburger  flex flex-col gap-1">
+              <div className="hamburger flex flex-col gap-1">
                 <div className="bar1"></div>
                 <div className="bar2"></div>
                 <div className="bar3"></div>
