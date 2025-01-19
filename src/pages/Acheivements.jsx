@@ -12,13 +12,13 @@ export const AcheivementsandExp = () => {
           {commonAch.map((ele, index) => {
             return (
               <div className="text-white space-y-2 " key={index}>
-                <h1 className=" md:h-16  md:w-[105%] lg:h-18  poppins-regular text-2xl md:text-2xl lg:text-3xl text-white lg:pb-4 ">
+                <h1 className=" md:h-16  md:w-[105%] lg:h-10  poppins-regular text-2xl md:text-2xl lg:text-xl  font-bold text-white lg:pb-4  ">
                   {ele.title}
                 </h1>
-                <div className="w-72  md:w-[105%] md:h-48 lg:h-80 ">
+                <div className="w-72  md:w-[105%] md:h-48 lg:h-80  ">
                   <img src={ele.img} alt="" />
                 </div>
-                <h3 className=" md:h-32 md:w-[105%] lg:h-24  text-white text-md  md:text-xl font-medium md:font-semibold lg:mt-3 ">
+                <h3 className=" md:h-32 md:w-[105%] lg:h-24  text-white text-md  md:text-xl font-medium md:font-medium lg:mt-3 ">
                   {ele.subheading}
                   <span className="text-md poppins-thin-italic ml-[10px]">
                     {ele.date}

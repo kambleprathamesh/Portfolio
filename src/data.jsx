@@ -132,24 +132,71 @@ const tools = [
   },
 ];
 
+// const commonAch = [
+//   {
+//     title: "SPEAKER WEB DEV BOOT CAMP",
+//     img: webdev,
+//     subheading: "HTML, CSS, JavaScript Second and third year Students of DMCE",
+//     date: "04-05 SEPTEMBER 2024",
+//     desc: "Conducted an engaging workshop on HTML, CSS, and JavaScript, designed to introduce students to essential web development concepts. The session focused on building a strong foundation in structuring web pages with HTML, styling them with CSS, and adding dynamic features using JavaScript. Participants, mainly second and third-year students, showed great enthusiasm as they explored the fundamentals of creating responsive and interactive websites. The experience was both fulfilling and enjoyable, fostering curiosity and creativity in web development.,",
+//     desc1:
+//       "Hosted a hands-on Git-GitHub workshop to prepare students for Hacktoberfest, an open-source festival. Covered Hacktoberfest basics, Git-GitHub commands, and making pull requests. The eager second and third-year attendees made it a rewarding experience.",
+//     link: "https://www.linkedin.com/posts/prathamesh-kamble19_csi-git-tech-activity-7127158817624104961-xFN6?utm_source=share&utm_medium=member_desktop",
+//   },
+
+//   {
+//     title: "SPEAKER GITHUB & HACKTOBERFEST",
+//     img: speaker,
+//     subheading:
+//       "GitHub Hands on Session for Second and third year Students of DMCE",
+//     date: "09 OCTOBER 2023",
+//     desc: "Hosting a hands-on workshop on Git-GitHub for students. The workshop was aimed at preparing them for Hacktoberfest, an open-source festival held every October where participants can contribute to projects in both coding and non-coding capacities. The attendees, primarily second and third-year students, were eager to learn. We covered topics such as an introduction to Hacktoberfest, Git-GitHub basics and commands, and how to make pull requests to contribute. It was an exciting and rewarding experience!",
+//     desc1:
+//       "Hosted a hands-on Git-GitHub workshop to prepare students for Hacktoberfest, an open-source festival. Covered Hacktoberfest basics, Git-GitHub commands, and making pull requests. The eager second and third-year attendees made it a rewarding experience.",
+//     link: "https://www.linkedin.com/posts/prathamesh-kamble19_csi-git-tech-activity-7127158817624104961-xFN6?utm_source=share&utm_medium=member_desktop",
+//   },
+
+//   {
+//     title: "NSS NATIONAL LEVEL CAMP",
+//     img: nss,
+//     subheading: "National Integration Camp,Haryana ",
+//     date: "July-2023",
+//     desc: "I had the honor of representing Maharashtra at the National Integration Camp, hosted at Chaudhary Charan Singh Haryana Agriculture University. our group of seven volunteers proudly represented our state. The camp, featuring 16 states, celebrated cultural diversity through traditional performances and activities. It was also a platform for personal growth, with inspirational speeches and engaging competitions. The camp fostered deep connections among volunteers from different states, enriching the experience further.",
+//     desc1:
+//       "Represented Maharashtra at the National Integration Camp at Chaudhary Charan Singh Haryana Agriculture University, joining volunteers from 16 states. Celebrated cultural diversity with traditional performances and personal growth through speeches and competitions. Fostered deep connections among volunteers, enriching the experience.",
+//     link: "https://www.linkedin.com/posts/prathamesh-kamble19_nationalintegration-culturaldiversity-maharashtrapride-activity-7126872678656790528-WmQ1?utm_source=share&utm_medium=member_desktop",
+//   },
+//   {
+//     title: "OPEN SOURCE CONTRIBUTION",
+//     img: hbf,
+//     subheading: "Hacktoberfest 2023: Impactful Contributions",
+//     date: "October 2023",
+//     desc: "Hacktoberfest 2023, I made four significant Pull Requests, showcasing the collaborative power of coding. My first PR ranked among the top 50,000 contributors globally, underscoring the reach of open-source development. Notably, Tree Nation honored my dedication by planting a tree in Tanzania. For my efforts, I received a DIGITAL REWARD KIT and HOLOPIN AVATAR, recognizing the hours invested in the open-source community.",
+//     desc1:
+//       "At Hacktoberfest 2023, I made four significant Pull Requests, ranking in the top 50,000 globally. Tree Nation honored my contributions with a tree planted in Tanzania, and I received a DIGITAL REWARD KIT and HOLOPIN AVATAR for my efforts in the open-source community.",
+//     link: "https://www.linkedin.com/posts/prathamesh-kamble19_hacktoberfest-opensourcemagic-codeforgood-activity-7127829161603121153-7eHR?utm_source=share&utm_medium=member_desktop",
+//   },
+// ];
+
 const commonAch = [
   {
-    title: "Speaker Web Development Boot camp",
+    title: "SPEAKER WEB DEV BOOT CAMP",
     img: webdev,
-    subheading: "HTML, CSS, JavaScript Second and third year Students of DMCE",
-    date: "09/10/2023",
-    desc: "Conducted an engaging workshop on HTML, CSS, and JavaScript, designed to introduce students to essential web development concepts. The session focused on building a strong foundation in structuring web pages with HTML, styling them with CSS, and adding dynamic features using JavaScript. Participants, mainly second and third-year students, showed great enthusiasm as they explored the fundamentals of creating responsive and interactive websites. The experience was both fulfilling and enjoyable, fostering curiosity and creativity in web development.,",
+    subheading:
+      "WEB DEVELOPMENT BOOTCAMP FOR DMCE STUDENTS (HTML, CSS, JAVASCRIPT)",
+    date: "04-05 SEPTEMBER 2024",
+    desc: "Conducted an engaging workshop on HTML, CSS, and JavaScript, designed to introduce students to essential web development concepts. The session focused on building a strong foundation in structuring web pages with HTML, styling them with CSS, and adding dynamic features using JavaScript. Participants, mainly second and third-year students, showed great enthusiasm as they explored the fundamentals of creating responsive and interactive websites. The experience was both fulfilling and enjoyable, fostering curiosity and creativity in web development.",
     desc1:
       "Hosted a hands-on Git-GitHub workshop to prepare students for Hacktoberfest, an open-source festival. Covered Hacktoberfest basics, Git-GitHub commands, and making pull requests. The eager second and third-year attendees made it a rewarding experience.",
     link: "https://www.linkedin.com/posts/prathamesh-kamble19_csi-git-tech-activity-7127158817624104961-xFN6?utm_source=share&utm_medium=member_desktop",
   },
 
   {
-    title: "Speaker GitHub & Hacktoberfest",
+    title: "SPEAKER GITHUB & HACKTOBERFEST",
     img: speaker,
     subheading:
-      "GitHub Hands on Session for Second and third year Students of DMCE",
-    date: "09/10/2023",
+      "HANDS-ON GITHUB SESSION FOR DMCE STUDENTS TO PREP FOR HACKTOBERFEST",
+    date: "09 OCTOBER 2023",
     desc: "Hosting a hands-on workshop on Git-GitHub for students. The workshop was aimed at preparing them for Hacktoberfest, an open-source festival held every October where participants can contribute to projects in both coding and non-coding capacities. The attendees, primarily second and third-year students, were eager to learn. We covered topics such as an introduction to Hacktoberfest, Git-GitHub basics and commands, and how to make pull requests to contribute. It was an exciting and rewarding experience!",
     desc1:
       "Hosted a hands-on Git-GitHub workshop to prepare students for Hacktoberfest, an open-source festival. Covered Hacktoberfest basics, Git-GitHub commands, and making pull requests. The eager second and third-year attendees made it a rewarding experience.",
@@ -157,21 +204,24 @@ const commonAch = [
   },
 
   {
-    title: "NSS:National Level Camp",
+    title: "NSS NATIONAL LEVEL CAMP",
     img: nss,
-    subheading: "National Integration Camp,Haryana ",
+    subheading:
+      "REPRESENTING MAHARASHTRA AT THE NATIONAL INTEGRATION CAMP, HARYANA",
     date: "July-2023",
-    desc: "I had the honor of representing Maharashtra at the National Integration Camp, hosted at Chaudhary Charan Singh Haryana Agriculture University. our group of seven volunteers proudly represented our state. The camp, featuring 16 states, celebrated cultural diversity through traditional performances and activities. It was also a platform for personal growth, with inspirational speeches and engaging competitions. The camp fostered deep connections among volunteers from different states, enriching the experience further.",
+    desc: "I had the honor of representing Maharashtra at the National Integration Camp, hosted at Chaudhary Charan Singh Haryana Agriculture University. Our group of seven volunteers proudly represented our state. The camp, featuring 16 states, celebrated cultural diversity through traditional performances and activities. It was also a platform for personal growth, with inspirational speeches and engaging competitions. The camp fostered deep connections among volunteers from different states, enriching the experience further.",
     desc1:
       "Represented Maharashtra at the National Integration Camp at Chaudhary Charan Singh Haryana Agriculture University, joining volunteers from 16 states. Celebrated cultural diversity with traditional performances and personal growth through speeches and competitions. Fostered deep connections among volunteers, enriching the experience.",
     link: "https://www.linkedin.com/posts/prathamesh-kamble19_nationalintegration-culturaldiversity-maharashtrapride-activity-7126872678656790528-WmQ1?utm_source=share&utm_medium=member_desktop",
   },
+
   {
-    title: "Contribution",
+    title: "OPEN SOURCE CONTRIBUTION",
     img: hbf,
-    subheading: "Hacktoberfest 2023: Impactful Contributions",
-    date: "October",
-    desc: "Hacktoberfest 2023, I made four significant Pull Requests, showcasing the collaborative power of coding. My first PR ranked among the top 50,000 contributors globally, underscoring the reach of open-source development. Notably, Tree Nation honored my dedication by planting a tree in Tanzania. For my efforts, I received a DIGITAL REWARD KIT and HOLOPIN AVATAR, recognizing the hours invested in the open-source community.",
+    subheading:
+      "HACKTOBERFEST 2023: MAKING GLOBAL CONTRIBUTIONS IN OPEN SOURCE",
+    date: "October 2023",
+    desc: "During Hacktoberfest 2023, I made four significant Pull Requests, showcasing the collaborative power of coding. My first PR ranked among the top 50,000 contributors globally, underscoring the reach of open-source development. Notably, Tree Nation honored my dedication by planting a tree in Tanzania. For my efforts, I received a DIGITAL REWARD KIT and HOLOPIN AVATAR, recognizing the hours invested in the open-source community.",
     desc1:
       "At Hacktoberfest 2023, I made four significant Pull Requests, ranking in the top 50,000 globally. Tree Nation honored my contributions with a tree planted in Tanzania, and I received a DIGITAL REWARD KIT and HOLOPIN AVATAR for my efforts in the open-source community.",
     link: "https://www.linkedin.com/posts/prathamesh-kamble19_hacktoberfest-opensourcemagic-codeforgood-activity-7127829161603121153-7eHR?utm_source=share&utm_medium=member_desktop",
