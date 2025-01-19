@@ -188,7 +188,7 @@ const commonAch = [
     desc: "Conducted an engaging workshop on HTML, CSS, and JavaScript, designed to introduce students to essential web development concepts. The session focused on building a strong foundation in structuring web pages with HTML, styling them with CSS, and adding dynamic features using JavaScript. Participants, mainly second and third-year students, showed great enthusiasm as they explored the fundamentals of creating responsive and interactive websites. The experience was both fulfilling and enjoyable, fostering curiosity and creativity in web development.",
     desc1:
       "Hosted a hands-on Git-GitHub workshop to prepare students for Hacktoberfest, an open-source festival. Covered Hacktoberfest basics, Git-GitHub commands, and making pull requests. The eager second and third-year attendees made it a rewarding experience.",
-    link: "https://www.linkedin.com/posts/prathamesh-kamble19_csi-git-tech-activity-7127158817624104961-xFN6?utm_source=share&utm_medium=member_desktop",
+    link: "",
   },
 
   {
