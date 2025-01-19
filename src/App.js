@@ -15,7 +15,10 @@ import TopButton from "./components/TopButton";
 function App() {
   return (
     <div className="App w-screen h-[100vh] overflow-x-hidden scroll-smooth">
-      <div className=" bg-[url(./images/banner.jpg)] bg-no-repeat bg-cover bg-center" id="top">
+      <div
+        className=" bg-[url(./images/banner.jpg)] bg-no-repeat bg-cover bg-center"
+        id="top"
+      >
         <NavBar />
         <CursorPointer />
         <section id="home">
@@ -44,7 +47,7 @@ function App() {
       <section>
         <Footer />
       </section>
-      <TopButton/>
+      <TopButton />
       <Toaster />
     </div>
   );

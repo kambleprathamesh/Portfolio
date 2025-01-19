@@ -24,7 +24,9 @@ import nss from "./images/nic.jpeg";
 import rgit from "./images/rgit.jpeg";
 import elctroviz from "./images/elctroviz.jpeg";
 import gits from "./images/gits.jpeg";
-
+import SIH from "./images/sih.jpeg";
+import webdev from "./images/webDev.png";
+import AWS from "./images/AWS.png";
 import csi from "./images/csi.png";
 import nsl from "./images/nss.svg";
 const backend = [
@@ -33,13 +35,19 @@ const backend = [
     skill: "Express JS",
     img: ejs,
   },
+
   {
     id: 2,
     skill: "Node JS",
     img: njs,
   },
   {
-    id: 2,
+    id: 3,
+    skill: "PostgreSQL (Prisma)",
+    img: ejs,
+  },
+  {
+    id: 4,
     skill: "MongoDB",
     img: mdb,
   },
@@ -53,16 +61,21 @@ const languages = [
   },
   {
     id: 2,
-    skill: "JavaScript",
+    skill: "TypeScirpt",
     img: js,
   },
   {
     id: 3,
+    skill: "JavaScript",
+    img: js,
+  },
+  {
+    id: 4,
     skill: "SQL",
     img: sql,
   },
   {
-    id: 4,
+    id: 5,
     skill: "NOSQL",
     img: mdb,
   },
@@ -96,14 +109,6 @@ const frontend = [
   },
 ];
 
-// const databases = [
-//   {
-//     id: 1,
-//     skill: "MongoDB",
-//     img: mdb,
-//   },
-// ];
-
 const tools = [
   {
     id: 1,
@@ -117,6 +122,11 @@ const tools = [
   },
   {
     id: 3,
+    skill: "AWS EC2, S3, CloudFront",
+    img: AWS,
+  },
+  {
+    id: 4,
     skill: "Docker",
     img: dok,
   },
@@ -124,7 +134,18 @@ const tools = [
 
 const commonAch = [
   {
-    title: "Speaker",
+    title: "Speaker Web Development Boot camp",
+    img: webdev,
+    subheading: "HTML, CSS, JavaScript Second and third year Students of DMCE",
+    date: "09/10/2023",
+    desc: "Conducted an engaging workshop on HTML, CSS, and JavaScript, designed to introduce students to essential web development concepts. The session focused on building a strong foundation in structuring web pages with HTML, styling them with CSS, and adding dynamic features using JavaScript. Participants, mainly second and third-year students, showed great enthusiasm as they explored the fundamentals of creating responsive and interactive websites. The experience was both fulfilling and enjoyable, fostering curiosity and creativity in web development.,",
+    desc1:
+      "Hosted a hands-on Git-GitHub workshop to prepare students for Hacktoberfest, an open-source festival. Covered Hacktoberfest basics, Git-GitHub commands, and making pull requests. The eager second and third-year attendees made it a rewarding experience.",
+    link: "https://www.linkedin.com/posts/prathamesh-kamble19_csi-git-tech-activity-7127158817624104961-xFN6?utm_source=share&utm_medium=member_desktop",
+  },
+
+  {
+    title: "Speaker GitHub & Hacktoberfest",
     img: speaker,
     subheading:
       "GitHub Hands on Session for Second and third year Students of DMCE",
@@ -159,24 +180,31 @@ const commonAch = [
 
 const hackathon = [
   {
+    img: SIH, // Ensure SIH is imported correctly
+    subheading: "WINNER SMART INDIA HACKATHON 2024",
+    date: "11-12 December 2024", // Proper date format
+    desc: "Team Astraa triumphed at SIH 2024, representing Datta Meghe College of Engineering with AquaDB, a geo-referenced fish catch repository under PSID SIH 1657. Despite challenges, we developed an advanced solution and showcased it at the Hyderabad Grand Finale. Grateful to our mentors and seniors—this victory is for all of us! ",
+    link: "https://www.linkedin.com/posts/prathamesh-kamble19_sih-2024-team-astraa-activity-7276945938168844288-iVq2?utm_source=share&utm_medium=member_desktop",
+  },
+  {
     img: rgit,
-    subheading: "1st Position,Reccursion RGIT,Andheri,Mumbai",
-    date: " 13&14/03/2024",
+    subheading: "WINNER, RECCURSION, RGIT, MUMBAI",
+    date: " 13-14 March 2024",
     desc: "Team Brewing JavaScript emerged victorious at Recursion 5.0 at Rajiv Gandhi Institute of Technology, triumphing over 130 teams. Our winning solution for the Multimodal Travel Planner integrated image recognition, text-based search, hotel recommendations, and nearby attractions suggestions, enhancing the travel experience seamlessly.",
 
     link: "https://www.linkedin.com/posts/prathamesh-kamble19_hackathon-recursion-rgit-activity-7175902254724440067-A7gy?utm_source=share&utm_medium=member_desktop",
   },
   {
     img: elctroviz,
-    subheading: "1st Position,Electroviz,DMCE,Airoli,Navi Mumbai",
-    date: " 04/04/2024",
+    subheading: "WINNER, ELECTROVIZ, DMCE, AIROLI",
+    date: " 04 April 2024",
     desc: "At the Electrowiz - National Level Project Presentation, Team Brewing JavaScript has won the very sought-after first prize! In the extremely competitive software area, our creation, CampusConnect, took first prize.",
     link: "https://www.linkedin.com/posts/prathamesh-kamble19_drumroll-please-breaking-news-folks-activity-7193887215934959617-NHbP?utm_source=share&utm_medium=member_desktop",
   },
   {
     img: gits,
-    subheading: " Participate in Multiple Hackthons",
-    date: " 04/04/2024",
+    subheading: "PARTICIPATE IN MULTIPLE HACKATHONS",
+    date: " January-April 2024",
     desc: "In March, my team won two hackathons with innovative projects. At Hacksparrow, we developed an On Voice Command News Website for the blind. At Hackathon 2.0, we created an Interactive Platform for college placements. Team Brewing JavaScript pushed boundaries, turning challenges into impactful solutions for an endless future.",
     link: "https://www.linkedin.com/posts/prathamesh-kamble19_hackathonheroes-innovation-hackathon-activity-7193884496558014464-0OCF?utm_source=share&utm_medium=member_desktop",
   },
