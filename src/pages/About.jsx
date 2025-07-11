@@ -49,8 +49,17 @@ export const About = () => {
           </div> 
         </div>*/}
 
-        <div className="absolute left-32 md:left-[78rem] top-[42rem] md:top-[38rem] z-[100] group duration-500 skew-x-6 hover:skew-x-0 hover:translate-x-2">
-          <div className="relative w-36 md:w-44 h-16 md:h-20 rounded-2xl bg-zinc-800 text-gray-50 flex flex-col justify-center items-center gap-1 group-hover:duration-400 before:absolute before:content-[''] before:-skew-x-12 before:rounded-2xl before:bg-neutral-700 before:right-3 before:top-0 before:w-36 md:before:w-44 before:h-16 md:before:h-20 before:-z-10">
+        {/* <div className="absolute left-32 md:left-[78rem] top-[42rem] md:top-[38rem] z-[100] group duration-500 skew-x-6 hover:skew-x-0 hover:translate-x-2 border-4 border-yellow-400">
+          <div className="border-4 border-yellow-400 relative w-36 md:w-44 h-16 md:h-20 rounded-2xl bg-zinc-800 text-gray-50 flex flex-col justify-center items-center gap-1 group-hover:duration-400 before:absolute before:content-[''] before:-skew-x-12 before:rounded-2xl before:bg-neutral-700 before:right-3 before:top-0 before:w-36 md:before:w-44 before:h-16 md:before:h-20 before:-z-10">
+            <span className="text-xl md:text-2xl font-bold">Jr</span>
+            <p className="text-[#55e6a5] text-[12px] md:text-sm font-semibold font-sans">
+              - Full Stack Developer
+            </p>
+          </div>
+
+        </div> */}
+        <div className="absolute left-8 md:left-[60vw] top-[30rem] md:top-[25rem] z-[100] group duration-500 skew-x-6 hover:skew-x-0 hover:translate-x-2 border-4 border-yellow-400">
+          <div className="relative w-36 md:w-44 h-16 md:h-20 rounded-2xl bg-zinc-800 text-gray-50 flex flex-col justify-center items-center gap-1 border-4 border-yellow-400 before:absolute before:content-[''] before:-skew-x-12 before:rounded-2xl before:bg-neutral-700 before:right-3 before:top-0 before:w-36 md:before:w-44 before:h-16 md:before:h-20 before:-z-10">
             <span className="text-xl md:text-2xl font-bold">Jr</span>
             <p className="text-[#55e6a5] text-[12px] md:text-sm font-semibold font-sans">
               - Full Stack Developer
