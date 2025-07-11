@@ -15,7 +15,7 @@ export const Home = () => {
             {/* <p className="text-2xl text-[#64FFDA]">
               Turning ideas into fast, clean, and real-world digital products.
             </p> */}
-            <p className="text-2xl">
+            <p className="text-2xl mt-4">
               Turning ideas into
               <span className="text-[#64FFDA]"> FAST</span>,{" "}
               <span className="text-[#64FFDA]">CLEAN</span>, and{" "}
@@ -28,13 +28,13 @@ export const Home = () => {
               
               <div className="hidden md:block">EVERYONE!</div>
             </div> */}
-            <div class="dropping-texts text-[#55e6a5] text-3xl font-sans lg:text-6xl space-y-2">
-              <div class="animate-drop">Coder</div>
-              <div class="animate-drop [animation-delay:0.3s]">
+            <div className="dropping-texts text-[#55e6a5] text-3xl font-sans lg:text-6xl space-y-2 mt-3">
+              <div className="animate-drop [animation-delay:5s]">Coder</div>
+              <div className="animate-drop [animation-delay:7s]">
                 Full Stack Web Developer
               </div>
-              <div class="animate-drop [animation-delay:0.6s]">Programmer</div>
-              <div class="hidden md:block animate-drop [animation-delay:0.9s]">
+              <div className="animate-drop [animation-delay:9s]">Programmer</div>
+              <div className="hidden md:block animate-drop [animation-delay:11s]">
                 EVERYONE!
               </div>
             </div>

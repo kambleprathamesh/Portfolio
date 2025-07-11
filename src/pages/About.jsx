@@ -2,7 +2,7 @@ import React from "react";
 import passportPhoto from "../images/passportphoto.png";
 export const About = () => {
   return (
-    <section className="w-full h-screen  md:h-[100vh] bg-[#03050a] flex flex-col  justify-between md:flex-row md:justify-center pb-8 relative">
+    <section className="w-full h-screen    bg-[#03050a] flex flex-col  justify-between md:flex-row md:justify-center pb-8 relative">
       {/* left part */}
 
       <div className="w-[80%] max-w-maxContent mx-auto flex flex-col gap-y-10  pt-[2rem]  ml-[3rem] md:ml-[7rem] md:mt-28 ">
@@ -40,17 +40,17 @@ export const About = () => {
         </div>
         {/* junior developer card */}
 
-        <div class="md:w-[300px] group duration-500 hover:-skew-x-0 skew-x-6 hover:translate-x-2 absolute left-32 md:left-[78rem] z-[80]  top-[42rem] md:top-[38rem]">
-          <div class="group-hover:duration-400 relative rounded-2xl w-36 md:w-44 h-16 md:h-20 bg-zinc-800 text-gray-50 flex flex-col justify-center items-center gap-1 before:-skew-x-12  before:rounded-2xl  before:absolute before:content['']  before:bg-neutral-700 before:right-3 before:top-0  before:w-36  md:before:w-44 before:h-16 md:before:h-20 before:-z-10">
-            <span class="text-xl md:text-2xl font-bold">Jr</span>
-            <p class="text- [#55e6a5]  text-[12px] md:text-sm font-semibold font-sans">
+        <div className="md:w-[300px] group duration-500 hover:-skew-x-0 skew-x-6 hover:translate-x-2 absolute left-32 md:left-[78rem] z-[80]  top-[42rem] md:top-[38rem]">
+          <div className="group-hover:duration-400 relative rounded-2xl w-36 md:w-44 h-16 md:h-20 bg-zinc-800 text-gray-50 flex flex-col justify-center items-center gap-1 before:-skew-x-12  before:rounded-2xl  before:absolute before:content['']  before:bg-neutral-700 before:right-3 before:top-0  before:w-36  md:before:w-44 before:h-16 md:before:h-20 before:-z-10">
+            <span className="text-xl md:text-2xl font-bold">Jr</span>
+            <p className="text- [#55e6a5]  text-[12px] md:text-sm font-semibold font-sans">
               - Full Stack Developer
             </p>
           </div>
         </div>
       </div>
       {/* right part */}
-      <div className="hidden md:block w-[20%]  absolute right-0 top-32  ">
+      <div className="hidden md:block w-[20%] h-[300px] absolute right-0 top-32  ">
         <div className="w-[80%] h-[300px] bg-[#55e6a5] rounded-lg absolute top-[4rem] right-[6rem]"></div>
         <div className="w-[78%] md:h-[300px] bg-[#414140]  rounded-lg  absolute top-[5rem] right-[7rem] ">
           <div>
@@ -69,4 +69,4 @@ export const About = () => {
   );
 };
 
-// #232323
+

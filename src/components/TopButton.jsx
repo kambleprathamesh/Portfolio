@@ -1,5 +1,4 @@
 import React from "react";
-import { FaArrowLeftLong  } from "react-icons/fa6"; // Changed to FaArrowUp for a more appropriate icon
 import { FaArrowUp } from "react-icons/fa6";
 const TopButton = () => {
   const scrollToTop = () => {

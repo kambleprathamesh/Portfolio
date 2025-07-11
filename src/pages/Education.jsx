@@ -1,6 +1,4 @@
 // import college from "../images/college.png";
-import csi from "../images/csi.png";
-import nss from "../images/nss.svg";
 import { education, organization } from "../data";
 import "../App.css";
 export const Education = () => {
