@@ -12,22 +12,47 @@ export const Home = () => {
         <div className="w-full flex flex-col justify-start gap-y-8  pt-[2rem] md:pt-[8rem]">
           <h1 className="text-white  text-3xl font-bold lg:text-5xl  uppercase font-Rowdies font-sans  pb-10  md:pb-0">
             Hi,I'm Prathmesh! <br></br>
-            <div class="dropping-texts  text-[#55e6a5]  text-3xl font-sans  lg:text-6xl">
+            {/* <p className="text-2xl text-[#64FFDA]">
+              Turning ideas into fast, clean, and real-world digital products.
+            </p> */}
+            <p className="text-2xl">
+              Turning ideas into
+              <span className="text-[#64FFDA]"> FAST</span>,{" "}
+              <span className="text-[#64FFDA]">CLEAN</span>, and{" "}
+              <span className="text-[#64FFDA]">REAL-WORLD</span>
+            </p>
+            {/* <div class="dropping-texts  text-[#55e6a5]  text-3xl font-sans  lg:text-6xl">
               <div>Coder</div>
               <div>Full Stack Web Developer</div>
               <div>Programmer</div>
-              {/* <div>EVERYONE!</div> */}
+              
               <div className="hidden md:block">EVERYONE!</div>
+            </div> */}
+            <div class="dropping-texts text-[#55e6a5] text-3xl font-sans lg:text-6xl space-y-2">
+              <div class="animate-drop">Coder</div>
+              <div class="animate-drop [animation-delay:0.3s]">
+                Full Stack Web Developer
+              </div>
+              <div class="animate-drop [animation-delay:0.6s]">Programmer</div>
+              <div class="hidden md:block animate-drop [animation-delay:0.3s]">
+                EVERYONE!
+              </div>
             </div>
           </h1>
           <div className="w-full flex flex-col-reverse gap-y-14 md:flex-row justify-center items-start mt-[1rem] ">
             <div>
               <p className="w-[75%] hidden md:block text-justify  text-gray-400 text-md font-sans font-semibold text-xl mt-[2rem]">
-                I am a Full Stack Web Developer with a passion for creating
+                {/* I am a Full Stack Web Developer with a passion for creating
                 innovative web applications using modern technologies. My goal
                 is to contribute to societal and national growth through
                 impactful digital solutions. I am committed to continuously
-                improving my skills and deepening my knowledge in the field.
+                improving my skills and deepening my knowledge in the field. */}
+                I’m a Full Stack Web Developer who loves building simple, fast,
+                and user-friendly web applications. I focus on creating digital
+                solutions that solve real problems and make a positive impact.
+                With a strong interest in learning and improving, I’m always
+                exploring better ways to turn ideas into valuable online
+                experiences.
               </p>
               <div className="w-full flex justify-between  md:hidden  mx-auto">
                 <div className="w-10 h-10 bg-gradient-to-r from-[#6dd5ed] to-[#80e3aa] rounded-xl p-2">

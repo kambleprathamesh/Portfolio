@@ -25,20 +25,22 @@ export const About = () => {
             </p>
             {/* </div> */}
           </div>
-          <p className="w-full text-gray-400 text-sm md:text-lg font-medium md:font-semibold text-center md:text-left leading-relaxed">
-            As a final-year Computer Engineering student at Datta Meghe College
-            of Engineering, I'm passionate about technology and innovation.
-            Skilled in the MERN stack, I build full-stack projects and
-            participate in hackathons to solve real-world problems. Beyond
-            coding, I'm active in college organizations, focusing on both
-            technical and social impact initiatives. I'm dedicated to using my
-            skills to drive positive change in both the tech community and
-            society.
+          <p className="w-full text-gray-400 text-sm md:text-lg font-medium md:font-semibold  md:text-left leading-relaxed text-justify">
+            I’m a Full Stack Developer with a strong foundation in the MERN
+            stack, recently graduated from Datta Meghe College of Engineering.
+            As SIH 2024 winner and 6× hackathon finalist, I’ve built scalable
+            web apps with RESTful APIs, MVC architecture, and cloud deployment.
+            During my SDE internship at PHICSIT, I contributed to UI
+            improvements and backend integration. As Technical Lead at the
+            Computer Society of India, I led workshops, mentored peers, and
+            co-organized major tech events. I thrive in collaborative
+            environments where learning, innovation, and clean code come
+            together to solve real problems.
           </p>
         </div>
         {/* junior developer card */}
 
-        <div class="md:w-[300px] group duration-500 hover:-skew-x-0 skew-x-6 hover:translate-x-2 absolute left-32 md:left-[68rem] z-[80]  top-[43rem] md:top-[38rem]">
+        <div class="md:w-[300px] group duration-500 hover:-skew-x-0 skew-x-6 hover:translate-x-2 absolute left-32 md:left-[78rem] z-[80]  top-[42rem] md:top-[38rem]">
           <div class="group-hover:duration-400 relative rounded-2xl w-36 md:w-44 h-16 md:h-20 bg-zinc-800 text-gray-50 flex flex-col justify-center items-center gap-1 before:-skew-x-12  before:rounded-2xl  before:absolute before:content['']  before:bg-neutral-700 before:right-3 before:top-0  before:w-36  md:before:w-44 before:h-16 md:before:h-20 before:-z-10">
             <span class="text-xl md:text-2xl font-bold">Jr</span>
             <p class="text- [#55e6a5]  text-[12px] md:text-sm font-semibold font-sans">
@@ -49,16 +51,18 @@ export const About = () => {
       </div>
       {/* right part */}
       <div className="hidden md:block w-[20%]  absolute right-0 top-32  ">
-        <div className="w-full h-[300px] bg-[#55e6a5] rounded-lg absolute top-[4rem] right-[6rem]"></div>
-        <div className="w-[95%] h-[300px] bg-[#414140]  rounded-lg  absolute top-[5rem] right-[7rem] ">
-          <img
-            src={passportPhoto}
-            class="w-[240px]  rounded-lg mt-4 mr-4"
-            alt=""
-          />
-          <p className="w-[400px] absolute -left-[1rem] top-[22rem] uppercase text-white text-3xl playfair-display-sc-regular ">
-            Prathmesh Kamble
-          </p>
+        <div className="w-[80%] h-[300px] bg-[#55e6a5] rounded-lg absolute top-[4rem] right-[6rem]"></div>
+        <div className="w-[78%] md:h-[300px] bg-[#414140]  rounded-lg  absolute top-[5rem] right-[7rem] ">
+          <div>
+            <img
+              src={passportPhoto}
+              className="w-[240px]  rounded-lg mt-6 -ml-4 "
+              alt=""
+            />
+            <p className="w-[400px] absolute -left-[3rem] top-[22rem] uppercase text-white text-3xl playfair-display-sc-regular ">
+              Prathmesh Kamble
+            </p>
+          </div>
         </div>
       </div>
     </section>

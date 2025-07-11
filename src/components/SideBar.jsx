@@ -1,7 +1,8 @@
 import React from "react";
 
 import { sidemenu } from "../data";
-const sideBar = () => {
+
+const sideBar = ({ closeSidebar }) => {
   return (
     <section className="text-white">
       <div className="w-screen">
@@ -15,6 +16,7 @@ const sideBar = () => {
                   WebkitBackgroundClip: "text",
                   WebkitTextFillColor: "transparent",
                 }}
+                onClick={closeSidebar}
               >
                 <a href={ele.id} key={index}>
                   <li
