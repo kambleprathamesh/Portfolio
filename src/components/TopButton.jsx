@@ -6,7 +6,7 @@ const TopButton = () => {
   };
 
   return (
-    <div className="fixed bottom-5 right-5 z-50">
+    <div className="fixed bottom-5 right-5 z-[150]">
       <a href="#top"
         onClick={scrollToTop}
         className="w-8 h-18 md:w-12 md:h-28 flex flex-col items-center justify-center rounded-full border-[1px] border-gray-400 bg-white hover:bg-gray-400 transition-colors duration-200 p-4 hover:scale-105 "
