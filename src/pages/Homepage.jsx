@@ -34,7 +34,7 @@ export const Home = () => {
                 Full Stack Web Developer
               </div>
               <div class="animate-drop [animation-delay:0.6s]">Programmer</div>
-              <div class="hidden md:block animate-drop [animation-delay:0.3s]">
+              <div class="hidden md:block animate-drop [animation-delay:0.9s]">
                 EVERYONE!
               </div>
             </div>
