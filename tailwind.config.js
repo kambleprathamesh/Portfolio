@@ -34,6 +34,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        goblin: ['"Goblin One"', "cursive"],
+      },
       keyframes: {
         dropIn: {
           "0%": { opacity: "0", transform: "translateY(-20px)" },

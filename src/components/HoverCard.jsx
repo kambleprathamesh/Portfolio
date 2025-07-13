@@ -89,13 +89,6 @@ export const Hover = () => {
         >
           <div className="w-50% h-full flex justify-center md:text-xl  font-sans font-semibold overflow-auto ">
             <pre style={{ color: "#79e9a2", whiteSpace: "pre-line" }}>
-              {/* <pre
-              style={{
-                background: "linear-gradient(to right, #6dd5ed, #80e3aa)",
-                WebkitBackgroundClip: "text",
-                WebkitTextFillColor: "transparent", // For Safari support
-              }}
-            > */}
               1. &lt;!DOCTYPE html&gt; <br></br>
               2. &lt;html lang="en"&gt;<br></br>
               3. &lt;head&gt;<br></br>
@@ -122,7 +115,6 @@ export const Hover = () => {
             <pre
               className="text-sm  lg:text-xl font-sans font-semibold text-green-300 animate-scroll"
               style={{ color: "#79e9a2", whiteSpace: "pre-line" }}
-             
             >
               <span>
                 1. &lt;!DOCTYPE html&gt; <br />

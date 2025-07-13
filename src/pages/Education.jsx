@@ -13,7 +13,7 @@ export const Education = () => {
             {education.map((ele, index) => {
               return (
                 <div className="flex flex-col gap-1 md:gap-3" key={index}>
-                  <div className="w-24 md:w-48 md:h-16 border-[2px]  border-[#55e6a5] rounded-sm text-[#55e6a5] text-lg md:text-2xl  font-sans font-medium  text-center flex items-center justify-center">
+                  <div className="w-32 md:w-48 md:h-16 border-[2px]  border-[#55e6a5] rounded-md text-[#55e6a5] text-lg md:text-2xl  font-sans font-medium  text-center flex items-center justify-center p-2 ">
                     {ele.passing}
                   </div>
                   <h1 className="text-white text-[1.1rem] text-start md:text-start font-semibold md:font-bold md:text-2xl md:archivo-black-regular mt-2 md:mt-0">
@@ -37,7 +37,7 @@ export const Education = () => {
             {organization.map((ele, index) => {
               return (
                 <div className="flex flex-col gap-3" key={index}>
-                  <div className="w-24 md:w-48 md:h-16 border-[2px]  border-[#55e6a5] rounded-sm text-[#55e6a5] text-lg md:text-2xl  font-sans font-medium  text-center flex items-center justify-center">
+                  <div className="w-32 md:w-48 md:h-16 border-[2px]  border-[#55e6a5]  text-[#55e6a5] text-lg md:text-2xl  font-sans font-medium  text-center flex items-center justify-center p-2 rounded-md">
                     {ele.passing}
                   </div>
                   <h1 className="text-white text-[1.2rem] text-start md:text-start font-semibold md:font-bold md:text-2xl md:archivo-black-regular ">

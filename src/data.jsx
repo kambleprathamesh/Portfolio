@@ -218,7 +218,7 @@ const education = [
   {
     deg: "Bachelor of Engineering,[Computer]",
     school: "Datta Meghe College of Engineering",
-    passing: "Pursuing",
+    passing: "2021 - 2025",
     place: "Airoli, Maharashtra",
   },
   {
@@ -238,14 +238,14 @@ const organization = [
   {
     organization: "Computer Society Of India DMCE",
     img: csi,
-    passing: "2023-Present",
+    passing: "2023-2025",
     position1: "Technical Head 2024-Present",
     position: "Technical and Development member 2023-2024",
   },
   {
     organization: "National Service Scheme",
     img: nsl,
-    passing: "2022-24",
+    passing: "2022-2024",
     position: "Volunteer",
   },
 ];
