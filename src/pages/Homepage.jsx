@@ -2,7 +2,8 @@ import { Hover } from "../components/HoverCard";
 import gitHub from "../images/github.png";
 import LinkedIn from "../images/linkedIn.png";
 import insta from "../images/insta.png";
-import resume from "../Resume/Prathmesh_Resume.pdf";
+// import resume from "../Resume/Prathmesh_Resume.pdf";
+import resume from "../Resume/Prathmesh's_Software Engineering_Resume.pdf";
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 
 export const Home = () => {
@@ -12,22 +13,14 @@ export const Home = () => {
         <div className="w-full flex flex-col justify-start gap-y-8  pt-[2rem] md:pt-[8rem]">
           <h1 className="text-white  text-3xl font-bold lg:text-5xl  uppercase font-Rowdies font-sans  pb-10  md:pb-0">
             Hi,I'm Prathmesh! <br></br>
-            {/* <p className="text-2xl text-[#64FFDA]">
-              Turning ideas into fast, clean, and real-world digital products.
-            </p> */}
+           
             <p className="text-2xl mt-4">
               Turning ideas into
               <span className="text-[#64FFDA]"> FAST</span>,{" "}
               <span className="text-[#64FFDA]">CLEAN</span>, and{" "}
               <span className="text-[#64FFDA]">REAL-WORLD</span>
             </p>
-            {/* <div class="dropping-texts  text-[#55e6a5]  text-3xl font-sans  lg:text-6xl">
-              <div>Coder</div>
-              <div>Full Stack Web Developer</div>
-              <div>Programmer</div>
-              
-              <div className="hidden md:block">EVERYONE!</div>
-            </div> */}
+           
             <div className="dropping-texts text-[#55e6a5] text-3xl font-sans lg:text-6xl space-y-2 mt-3">
               <div className="animate-drop [animation-delay:5s]">Coder</div>
               <div className="animate-drop [animation-delay:7s]">
